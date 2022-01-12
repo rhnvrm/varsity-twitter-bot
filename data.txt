@@ -487,3 +487,1324 @@ By including a 10% leeway, we create an intrinsic value band.
 Stock trading below the range is considered a good buy, while the stock price above the intrinsic value band is considered expensive.
 Wealth is created by long term ownership of undervalued stocks.
 Thus, the DCF analysis helps the investors identify whether the company’s current share price is justified.
+
+https://zerodha.com/varsity/chapter/background-forwards-market/
+The forwards’ contract lays down the basic foundation for a futures contract.
+A Forward is an OTC derivative, which is not traded on an exchange.
+Forward contracts are private agreements whose terms vary from one contract to the other.
+The structure of a forwards contract is fairly simple.
+In a forward agreement, the party agreeing to buy the asset is called the “Buyer of the Forwards Contract.”
+In a forward agreement, the party agreeing to sell the asset is called the “Seller of the Forwards Contract.”
+A variation in the price would impact both the buyer and the seller of the forwards’ contract.
+Settlement takes place in two ways in a forward contract – Physical and Cash settlement.
+A futures contract reduces the risk of a forward contract.
+The core of a forward and futures contract is the same.
+
+https://zerodha.com/varsity/chapter/introducing-futures-contract/
+The forwards and futures markets give you a financial benefit if you have an accurate directional view of an asset’s price.
+The Futures contract is an improvisation over the Forwards contract.
+The Futures price generally mimics the underlying price in the spot market.
+Unlike a forwards contract, the futures contract is tradable.
+The futures contract is a standardized contract wherein all the variables of the agreement is predetermined.
+Futures contracts are time-bound, and the contracts are available over different timeframes.
+Most of the futures contracts are cash-settled
+SEBI in India regulates the futures market.
+The lot size is the minimum quantity specified in the futures contract.
+Contract value = Lot size times the Futures price.
+To enter into a futures agreement, one has to deposit a margin amount, a certain % of the contract value.
+Every futures contract has an expiry date beyond which the contract would seize to exist. Upon expiry, old contracts cease and new ones are created.
+
+https://zerodha.com/varsity/chapter/futures-trade/
+If you have a directional view on an assets price, you can financially benefit from it by entering into a futures agreement.
+To transact in a futures contract, one needs to deposit a token advance called the margin.
+When we transact in a futures contract, we digitally sign the agreement with the counterparty; this obligates us to honour the contract.
+The futures price and the spot price of an asset are different; this is attributable to the futures pricing formula (we will discuss this topic later)
+One lot refers to the minimum number of shares that needs to be transacted.
+Once we enter into a futures agreement, there is no obligation to stick to the agreement until the contract expires.
+Every futures trade requires a margin amount; the margins are blocked when you enter a futures trade.
+We can exit the agreement anytime, which means you can exit the agreement within seconds of entering the agreement.
+When we square off an agreement, we are essentially transferring the risk to someone else.
+Once we square off the futures position, margins are unblocked.
+The money that you make or lose in a futures transaction is credited or debited to your trading account the same day.
+In a futures contract, the buyer’s gain is the seller’s loss and vice versa.
+
+https://zerodha.com/varsity/chapter/leverage-payoff/
+Leverage plays a key role in futures trading.
+Margins allow us to deposit a small amount of money and take exposure to a large value transaction.
+Margins charged is usually a % of the contract value.
+Spot market transactions are not leveraged; we can transact to the extent of our capital.
+Under leverage, a small change in the underlying results in a massive impact on the P&L
+The profits made by the buyer is equivalent to the loss made by the seller and vice versa.
+The higher the leverage, the higher is the risk and, therefore, the higher the chance of making money.
+Futures Instrument simply allows one to transfer money from one pocket to another. Hence it is called a “Zero Sum Game.”
+The payoff structure of a futures instrument is linear.
+
+https://zerodha.com/varsity/chapter/margin-m2m/
+A margin payment is required (which will be blocked by your broker) as long as the futures trade is live.
+The margin blocked by the broker at the time of initiating the futures trade is called the initial margin.
+Both the buyer and the seller of the futures agreement will have to deposit the initial margin amount.
+The margin amount collected acts as leverage, as it allows you to deposit a small amount of money and take exposure to a large value transaction.
+M2M is a simple accounting adjustment; the process involves crediting or debiting the daily obligation money in your trading account based on how the futures price behaves.
+The previous day closing price figure is taken to calculate the current day’s M2M.
+SPAN Margin is the margin collected as per the exchanges instruction, and the Exposure Margin is collected as per the broker’s requirement
+The SPAN and Exposure Margin are determined as per the norms of the exchange.
+The SPAN Margin is popularly referred to as the Maintenance Margin.
+If the margin account goes below the SPAN, the investor must deposit more cash into his account if he aspires to carry forward the future position.
+The Margin Call is when the broker requests the trader to infuse the required margin money when the cash balance goes below the required level.
+
+https://zerodha.com/varsity/chapter/margin-calculator-part-1/
+Zerodha’s margin calculator is a simple tool that lets you calculate the margin required for a futures contract.
+The margin calculator has many versatile features inbuilt.
+The margin calculator gives the split up between the SPAN and Exposure margin.
+At any given point, NSE ensures there are three contracts of the same underlying, which expire on 3 different (but consecutive) months.
+A trader can choose the contract of his choice based on the expiry date.
+The contract belonging to the present month is called ‘Current Month Contract’, the next month contract is called ‘Mid Month’, and the 3rd one is called “Far Month Contract.’
+On every expiry, the current month contract expires and a new far month contract is introduced. In the process, the mid-month contract would graduate to the current month contract.
+A calendar spread is a trading technique which involves buying a certain month contract and selling another month contract simultaneously for the same underlying.
+When a calendar spread is initiated, the margins required are lower since the risk is drastically reduced.
+
+https://zerodha.com/varsity/chapter/margin-calculator-part-2/
+The more information one conveys to the RMS system in terms of trade duration and stoploss; the lesser is the margin requirement.
+Use NRML product type when you want to initiate a trade and carry it overnight.
+NRML margins are the highest (SPAN + Exposure)
+MIS is a pure intraday trade. Hence the MIS margin is lesser than the NRML margin.
+In an MIS trade, only time information is conveyed (intraday) but not the information about the stoploss
+A cover order (CO) is also an intraday product; besides, in a CO, one has to specify the stoploss
+A CO conveys both the time and the SL information. Hence margins are lesser than MIS.
+The margins for a Bracket Order (BO) is similar to a CO.
+In a BO product type, one can specify both the SL and target price at one go. Besides, one can also trail the stop loss.
+A trailing SL technique requires one to adjust the SL and when the script moves in favour of the trade.
+A trailing SL is a great way to ride the momentum in a script.
+There are no fixed trailing rules; one can choose the trailing SL based on the market situation.
+
+https://zerodha.com/varsity/chapter/shorting/
+Shorting requires us to sell first and buy later
+Short trade is profitable only when the closing price is lower than the entry price
+When the price goes higher than the price at which one has shorted, then there would be a loss
+The stoploss in a short trade is always higher than the price at which one has shorted
+One can only short on an intraday basis in the spot market
+The short positions cannot be carried overnight in the spot market
+The short position in the futures market can be carried forward overnight
+The margins requirement for both short and long trades are similar
+The M2M computation is also similar for both short and long trades
+
+https://zerodha.com/varsity/chapter/nifty-futures/
+Nifty Futures derives its value based on the Nifty Index in spot, which is its underlying
+At present, the Nifty futures lot size is 75
+The Nifty futures is the most liquid futures contract in India
+Just like other future contracts, Nifty Futures contracts are also available with three different expiry options (Current month, Mid Month, and Far Month)
+A round trip trade is an arbitrary quick instantaneous trade which involves buying at the best available sell price and selling at the best available buy price
+A round trip trade always results in a loss
+Impact cost measures the loss of a round trip as a % of average of bid and ask
+Higher the impact cost, lesser the liquidity and vice versa
+When you place a market order to transact, you may lose some money owing to impact cost
+Nifty has an impact cost close to 0.0082%, which makes it the most liquid contract to trade
+
+https://zerodha.com/varsity/chapter/futures-pricing/
+The futures pricing formula states that the Futures Price = Spot price *(1+Rf (x/365)) – d
+The difference between futures and spot is called the basis or simply the spread
+The futures price as estimated by the pricing formula is called the “Theoretical fair value”
+The price at which the futures trade in the market is called the ‘market value’
+The theoretical fair value of futures and market value by and large should be around the same value. However there could be slight variance mainly due to the associated costs
+If the futures is rich to spot then the futures is said to be at premium else it is said to be at a discount
+In commodity parlance Premium = Contango and Discount = Backwardation
+Cash and carry is a spread where one can buy in the spot and sell in the futures
+Calendar spread is an extension of a cash and carry where one buys a contract and simultaneously sells another contract (with a different expiry) but of the same underlying
+
+https://zerodha.com/varsity/chapter/hedging-futures/
+Hedging allows you to insulate your market position against any adverse movements in the market
+When you hedge your loss in the spot market it is offset by gains in the futures market
+There are two types of risk – systematic and unsystematic risk
+Systematic risk is risk specific to macroeconomic events. Systematic risk can be hedged. Systematic risk is common to all stocks
+Unsystematic risk is the risk associated with the company. This is unique to each company. Unsystematic risk cannot be hedge, but can be diversified
+Research suggests, beyond 21 stocks unsystematic risk cannot be diversified any further
+To hedge a single stock position in spot we simply have to take a counter position in the futures market. But the extent of spot value and futures value have to be same
+Market beta is always +1.0
+Beta measures the sensitivity of stock
+Stock with Beta of less than 1 is called low beta stock
+Stocks with Beta higher than 1 is called a high beta stock
+One can easily estimate the stock beta in MS Excel by employing the ‘Slope’ function
+To hedge a portfolio of stocks we need to follow the following steps
+Calculate individual stock beta
+Calculate individual weightage of each stock in the portfolio
+Estimate the weighted beta of each stock
+Sum up the weighted beta to get the portfolio beta
+Multiply the portfolio beta with Portfolio value to get the hedge value
+Divide the hedge value by Nifty Contract Value to get the number of lots
+Short the required number of lots in the futures market
+Remember a perfect hedge is difficult to construct, for this reason we are forced to either under hedge or over hedge.
+
+https://zerodha.com/varsity/chapter/open-interest/
+Open Interest (OI) is a number that tells you how many contracts are currently outstanding (open) in the market
+OI increases when new contracts are added. OI decreases when contracts are squared off
+OI does not change when there is transfer of contracts from one party to another
+Unlike volumes, OI is continuous data
+On a stand along basis OI and Volume information does not convey information, hence it makes sense to always pair it with the price to understand the impact of their respective variation
+Abnormally high OI indicates high leverage, beware of such situations.
+
+https://zerodha.com/varsity/chapter/call-option-basics/
+Options are traded in the Indian markets for over 15 years, but the real liquidity was available only since 2006
+An Option is a tool for protecting your position and reducing risk
+A buyer of the call option has the right and the seller has an obligation to make delivery
+The option is only given to one party in the transaction ( buyer of an option)
+The option seller is also called the option writer
+At the time of agreement the option buyer pays a certain amount to the option seller, this is called the ‘Premium’ amount
+The agreement happens at a pre-specified price, often called the ‘Strike Price’
+The option buyer benefits only if the price of the asset increases higher than the strike price
+If the asset price stays at or below the strike, the buyer does not benefit, for this reason it always makes sense to buy options when you expect the price to increase
+Statistically the option seller has higher odds of winning in an typical option contract
+The directional view has to pan out before the expiry date, else the option will expire worthless
+
+https://zerodha.com/varsity/chapter/basic-option-jargons/
+It makes sense to buy a call option only when one anticipates an increase in the price of an asset
+The strike price is the anchor price at which both the option buyer and option writer enter into an agreement
+The underlying price is simply the spot price of the asset
+Exercising of an option contract is the act of claiming your right to buy the options contract at the end of the expiry
+Similar to futures contract, options contract also have an expiry. Option contracts expire on the last Thursday of every month
+Option contracts have different expiries – the current month, mid month, and far month contracts
+Premiums are not fixed, in fact they vary based on several factors that act upon it
+Options are cash settled in India.
+
+https://zerodha.com/varsity/chapter/buying-a-call-option/
+It makes sense to be a buyer of a call option when you expect the underlying price to increase
+If the underlying price remains flat or goes down then the buyer of the call option loses money
+The money the buyer of the call option would lose is equivalent to the premium (agreement fees) the buyer pays to the seller/writer of the call option
+Intrinsic value (IV) of a call option is a non negative number
+IV = Max[0, (spot price – strike price)]
+The maximum loss the buyer of a call option experiences is to the extent of the premium paid. The loss is experienced as long as the spot price is below the strike price
+The call option buyer has the potential to make unlimited profits provided the spot price moves higher than the strike price
+Though the call option is supposed to make a profit when the spot price moves above the strike price, the call option buyer first needs to recover the premium he has paid
+The point at which the call option buyer completely recovers the premium he has paid is called the breakeven point
+The call option buyer truly starts making a profit only beyond the breakeven point (which naturally is above the strike price).
+
+https://zerodha.com/varsity/chapter/sellingwriting-a-call-option/
+You sell a call option when you are bearish on a stock
+The call option buyer and the seller have a symmetrically opposite P&L behaviour
+When you sell a call option you receive a premium
+Selling a call option requires you to deposit a margin
+When you sell a call option your profit is limited to the extent of the premium you receive and your loss can potentially be unlimited
+P&L = Premium – Max [0, (Spot Price – Strike Price)]
+Breakdown point = Strike Price + Premium Received
+In India, all options are European in nature
+
+https://zerodha.com/varsity/chapter/the-put-option-buying/
+Buy a Put Option when you are bearish about the prospects of the underlying. In other words, a Put option buyer is profitable only when the underlying declines in value
+The intrinsic value calculation of a Put option is slightly different when compared to the intrinsic value calculation of a call option
+IV (Put Option) = Strike Price – Spot Price
+The P&L of a Put Option buyer can be calculated as P&L = [Max (0, Strike Price – Spot Price)] – Premium Paid
+The breakeven point for the put option buyer is calculated as Strike – Premium Paid
+
+https://zerodha.com/varsity/chapter/the-put-option-selling/
+You sell a Put option when you are bullish on a stock or when you believe the stock price will no longer go down
+When you are bullish on the underlying you can either buy the call option or sell a put option. The decision depends on how attractive the premium is
+Option Premium pricing along with Option Greeks gives a sense of how attractive the premiums are
+The put option buyer and the seller have a symmetrically opposite P&L behaviour
+When you sell a put option you receive premium
+Selling a put option requires you to deposit margin
+When you sell a put option your profit is limited to the extent of the premium you receive and your loss can potentially be unlimited
+P&L = Premium received – Max [0, (Strike Price – Spot Price)]
+Breakdown point = Strike Price – Premium received
+
+https://zerodha.com/varsity/chapter/summarizing-call-put-options/
+Buy a call option or sell a put option only when you expect the market to go up
+Buy a put option or sell a call option only when you expect the market to go down
+The buyer of an option has unlimited profit potential and limited risk (to the extent of the premium paid)
+The seller of an option has an unlimited risk potential and limited reward (to the extent of the premium received)
+Majority of options traders prefer to trade options only to capture the variation in premiums
+Option premiums tend to gyrate drastically – as an options trader, and you can expect this to happen quite frequently.
+Premiums vary as a function of 4 forces called the Option Greeks
+Black & Sholes option pricing formula employs four forces as inputs to give out a price for the premium
+Markets control the Option Greeks and the Greek’s variation itself
+
+https://zerodha.com/varsity/chapter/moneyness-of-an-option-contract/
+The intrinsic value of an option is equivalent to the value of money the option buyer makes provided if he were to exercise the contract.
+Intrinsic Value of an option cannot be negative; it is a non zero positive value.
+The intrinsic value of call option = Spot Price – Strike Price
+The intrinsic value of put option = Strike Price – Spot Price.
+Any option that has an intrinsic value is classified as ‘In the Money’ (ITM) option.
+Any option that does not have an intrinsic value is classified as ‘Out of the Money’ (OTM) option.
+If the strike price is almost equal to spot price, then the option is considered as ‘At the money’ (ATM) option.
+All strikes lower than ATM are ITM options (for call options)
+All strikes higher than ATM are OTM options (for call options)
+All strikes higher than ATM are ITM options (for Put options)
+All strikes lower than ATM are OTM options (for Put options)
+When the intrinsic value is very high, it is called ‘Deep ITM’ option.
+Likewise, when the intrinsic value is the least, it is called ‘Deep OTM’ option.
+The premiums for ITM options are always higher than the premiums for OTM option.
+The Option chain is a quick visualization to understand which option strike is ITM, OTM, ATM (for both calls and puts) along with other information relevant to options.
+
+https://zerodha.com/varsity/chapter/the-option-greeks-delta-part-1/
+Option Greeks are forces that influence the premium of an option
+Delta is an Option Greek that captures the effect of the direction of the market
+Call option delta varies between 0 and 1, some traders prefer to use 0 to 100.
+Put option delta varies between -1 and 0 (-100 to 0)
+The negative delta value for a Put Option indicates that the option premium and underlying value moves in the opposite direction
+ATM options have a delta of 0.5
+ITM option have a delta of close to 1
+OTM options have a delta of close to 0.
+
+https://zerodha.com/varsity/chapter/delta-part-2/
+Model Thinking helps in developing a scientifically streamlined approach to trading
+The Delta changes as and when the spot value changes
+As the option transitions from OTM to ATM to ITM, so does the delta
+Delta hits a value of 0.5 for ATM options
+Delta predevelopment is when the option transitions from Deep OTM to OTM
+Delta Take off and acceleration is when the option transitions from OTM to ATM
+Delta stabilization is when the option transitions from ATM to ITM to Deep ITM
+Buying options in the take off stage tends to give high % return
+Buying Deep ITM option is as good as buying the underlying.
+
+https://zerodha.com/varsity/chapter/delta-part-3/
+The delta is additive in nature
+The delta of a futures contract is always 1
+Two ATM option is equivalent to owning 1 futures contract
+The options contract is not really a surrogate for the futures contract
+The delta of an option is also the probability for the option to expire ITM
+
+https://zerodha.com/varsity/chapter/gamma-part-1/
+Financial derivatives are called Financial derivatives because of its dependence on calculus and differential equations (generally called Derivatives)
+Delta of an option is a variable and changes for every change in the underlying and premium
+Gamma captures the rate of change of delta, it helps us get an answer for a question such as “What is the expected value of delta for a given change in underlying”
+Delta is the 1st order derivative of premium
+Gamma is the 2nd order derivative of premium
+
+https://zerodha.com/varsity/chapter/gamma-part-2/
+Gamma measures the rate of change of delta.
+Gamma is always a positive number for both Calls and Puts.
+Large Gamma can translate to large gamma risk (directional risk)
+When you buy options (Calls or Puts) you are long Gamma.
+When you short options (Calls or Puts) you are short Gamma
+Avoid shorting options which have a large gamma.
+Delta changes rapidly for ATM option.
+Delta changes slowly for OTM and ITM options.
+
+https://zerodha.com/varsity/chapter/theta/
+Option sellers are always compensated for the time risk
+Premium = Intrinsic Value + Time Value
+All else equal, options lose money on a daily basis owing to Theta
+Time moves in a single direction hence Theta is a positive number
+Theta is a friendly Greek to option sellers
+When you short naked options at the start of the series you can pocket a large time value but the fall in premium owing to time is low
+When you short option close to expiry the premium is low (thanks to time value) but the fall in premium is rapid
+
+https://zerodha.com/varsity/chapter/understanding-volatility-part-1/
+Vega measures the rate of change of premium concerning the change in volatility.
+Volatility is not just the up-down movement of markets.
+Volatility is a measure of risk.
+Volatility is estimated by the standard deviation.
+Standard Deviation is the square root of the variance.
+We can estimate the range of the stock price, given its volatility.
+Larger the range of stock, higher is its volatility aka risk.
+
+https://zerodha.com/varsity/chapter/volatility-calculation-historical/
+Standard Deviation represents volatility, which in turn represents risk
+We can use NSE website to get the daily closing prices of securities
+Daily return can be calculated as log returns
+Log function in excel is LN
+Daily return formula = LN (Today’s Value / Yesterday’s Value) expressed as a percentage
+Excel function to calculate volatility is STDEV
+Standard Deviation of daily return is equivalent of daily volatility
+To convert daily volatility to annual volatility multiply the daily volatility by the square root of time
+Likewise to convert annual volatility to daily volatility, divide the annual volatility by the square root of time
+
+https://zerodha.com/varsity/chapter/volatility-normal-distribution/
+The daily returns of the stock is a random walk, highly difficult to predict
+The returns of the stock is normally distributed or rather close to normal distribution
+In a normal distribution the data is centered around the mean and the dispersion is measured by the standard deviation
+Within 1 SD we can observe 68% of the data
+Within 2 SD we can observe 95% of the data
+Within 3 SD we can observe 99.5% of the data
+Events occurring outside the 3rd standard deviation are referred to as Black Swan events
+Using the SD values we can calculate the upper and lower value of stocks/indices
+
+https://zerodha.com/varsity/chapter/volatility-applications/
+You can use SD to identify strikes that you can write
+Avoid shorting PUT options
+Strikes 1 SD away offers 68% flexibility, if you need higher flexibility you could opt for 2SD
+Higher the SD, higher is the range, and lower is the premium collected
+Allocate capital based on your belief in asset classes. It is always advisable to invest across asset classes
+It always makes sense to place SL based on daily volatility of the stock
+
+https://zerodha.com/varsity/chapter/vega/
+Historical Volatility is measured by the closing prices of the stock/index
+Forecasted Volatility is forecasted by volatility forecasting models
+Implied Volatility represents the market participants expectation of volatility
+India VIX represents the implied volatility over the next 30 days period
+Vega measures the rate of change of premium with respect to change in volatility
+All options increase in premium when volatility increases
+The effect of volatility is highest when there are more days left for expiry
+
+https://zerodha.com/varsity/chapter/greek-interactions/
+Volatility smile helps you visualize the fact that the OTM options usually have high IVs
+With the help of a ‘Volatility Cone’ you can visualize today’s implied volatility with respect to past realized volatility
+Gamma is high for ATM option especially towards the end of expiry
+Gamma for ITM and OTM options goes to zero when we approach expiry
+Delta has an effect on lower range of options around ATM when IV is low and its influence increases when volatility is high.
+When the volatility is high, the far OTM options do tend to have a non zero delta value
+
+https://zerodha.com/varsity/chapter/greek-calculator/
+The options calculator is based on the Black & Scholes model
+The Black & Scholes model is used to estimate the option’s theoretical price along with the option’s Greek
+The interest rate in the B&S calculator refers to the risk free rate as available on the RBI site
+The implied volatility can be fetched from the option chain from the NSE website
+The put call parity states that the payoff from a put option plus the spot equals the payoff from call option plus the strike.
+
+https://zerodha.com/varsity/chapter/re-introducing-call-put-options/
+Volatility plays a crucial role in your decision to buy options
+In general buy options when you expect the volatility to go higher
+Sell options when you expect the volatility to decrease
+Besides volatility the time to expiry and the time frame during which the target is expected to be achieved also matters
+
+https://zerodha.com/varsity/chapter/options-m2m-and-pl/
+Neither option buying nor selling entails mark to market; M2M is only for futures
+Margins charged for option selling is a function of both price movement and volatility
+As volatility increases, so does the option premium
+Option positions closed before expiry can be generalized to the Difference between buying and selling price of premium multiplied by lot size
+The option positions held to expiry are physically settled
+
+https://zerodha.com/varsity/chapter/bull-call-spread/
+A moderate move would mean you expect a movement in the stock/index but the outlook is not too aggressive
+One has to quantify ‘moderate’ by evaluating the volatility of the  stock/index
+Bull Call spread is a basic spread that you can set up when the outlook is moderately bullish
+Classic bull call spread involves buying ATM option and selling OTM option – all belonging to same expiry, same underlying, and equal quantity
+The theta plays an important role in strike selection
+The risk reward gets skewed based on the strikes you choose
+
+https://zerodha.com/varsity/chapter/bull-put-spread/
+The Bull Put Spread is an alternative to the Bull Call Spread. Its best executed when the outlook on the market is ‘moderately bullish’
+Bull Put Spread results in a net credit
+The Bull Put Spread is best executed when the market has cracked, put premiums are high, the volatility is on the higher side, and you expect the market to hold up (without cracking further)
+The Bull Put strategy involves simultaneously buying an OTM Put option and selling an ITM Put option
+Maximum profit is limited to the extent of the net credit
+Maximum loss is limited to the Spread minus Net credit
+Breakeven is calculated as Higher Strike – Net Credit
+One can create the spread by employing any OTM and ITM strikes
+Higher the spread, higher the profit potential, and higher the breakeven point.
+
+https://zerodha.com/varsity/chapter/call-ratio-back-spread/
+The Call Ratio Backspread is best executed when your outlook on the stock/index is bullish
+The strategy requires you to sell 1 ITM CE and buy 2 OTM CE, and this is to be executed in the same ratio i.e for every 1 sold option, 2 options have to be purchased
+The strategy is usually executed for a ‘net Credit’
+The strategy makes limited money if the stock price goes down, and unlimited profit if the stock price goes up. The loss is pre defined
+There are two break even points – lower breakeven and upper breakeven points
+Spread = Higher Strike – Lower Strike
+Net Credit = Premium Received for lower strike – 2*Premium of higher strike
+Max Loss = Spread – Net Credit
+Max Loss occurs at = Higher Strike
+The payoff when market goes down = Net Credit
+Lower Breakeven = Lower Strike + Net Credit
+Upper Breakeven = Higher Strike + Max Loss
+Irrespective of the time to expiry opt for slightly ITM + Slightly OTM combination of strikes
+Increase in volatility is good for this strategy when there is more time to expiry, but when there is less time to expiry, increase in volatility is not really good for this strategy.
+
+https://zerodha.com/varsity/chapter/bear-call-ladder/
+Bear Call Ladder is an improvisation over the Call Ratio Spread
+Invariably the cost of executing a bear call ladder is better than the Call Ratio Spread, but the range above which the market has to move also becomes large
+The Bear Call Ladder is executed by selling 1 ITM CE, buying 1 ATM CE, and 1 OTM CE
+Net Credit = Premium Received from ITM CE – Premium paid to ATM & OTM CE
+Max Loss = Spread (difference between the ITM and ITM options) – Net Credit
+Max Loss occurs at = ATM and OTM  Strike
+The payoff when market goes down = Net Credit
+Lower Breakeven = Lower Strike + Net Credit
+Upper Breakeven = Sum of Long strike minus short strike minus net premium
+Execute the strategy only when you are convinced that the market will move significantly higher.
+
+https://zerodha.com/varsity/chapter/synthetic-long-arbitrage/
+You can use options to replicate futures payoff
+A synthetic long replicates the long futures payoff
+Simultaneously buying ATM call and selling ATM Put creates a synthetic long
+The breakeven point for the synthetic long is the ATM strike + net premium paid
+An arbitrage opportunity is created when Synthetic long + short futures yields a positive non zero P&L upon expiry
+Execute the arbitrage trade only if the P&L upon expiry makes sense after accounting for expenses.
+
+https://zerodha.com/varsity/chapter/bear-put-spread/
+Spread offers visibility on risk but at the same time shrinks the reward
+When you create a spread, the proceeds from the sale of an option offsets the purchase of an option
+Bear put spread is best invoked when you are moderately bearish on the markets
+Both the profits and losses are capped
+Classic bear put spread involves simultaneously purchasing ITM put options and selling OTM put options
+Bear put spread usually results in a net debit
+Net Debit = Premium Paid – Premium Received
+Breakeven = Higher strike – Net Debit
+Max profit = Spread – Net Debit
+Max Loss = Net Debit
+Select strikes based on the time to expiry
+Implement the strategy only when you expect the volatility to increase (especially in the 2nd half of the series)
+
+https://zerodha.com/varsity/chapter/bear-call-spread/
+Bear call spread is best invoked when you are moderately bearish on the markets
+You choose a bear call spread over a bear put spread when the call option premiums are more attractive than put options.
+Both the profits and losses are capped
+Classic bear call spread involves simultaneously purchasing OTM call options and selling ITM call options
+Bear call spread usually results in a net credit, in fact this is another key reason to invoke a bear call spread versus a bear put spread
+Net Credit = Premium Received – Premium Paid
+Breakeven = Lower strike + Net Credit
+Max profit = Net Credit
+Max Loss = Spread – Net Credit
+Select strikes based on the time to expiry
+Implement the strategy only when you expect the volatility to increase (especially in the 2nd half of the series)
+
+https://zerodha.com/varsity/chapter/put-ratio-back-spread/
+The Put Ratio Back spread is best executed when your outlook on the stock/index is bearish
+The strategy requires you to sell 1 ITM PE and buy 2 OTM PE, and this is to be executed in the same ratio i.e for every 1 option sold, 2 options have to be purchased
+The strategy is usually executed for a ‘Net Credit’
+The strategy makes limited money if the stock price goes up, and unlimited profit when the stock price goes down
+There are two break even points – lower breakeven and upper breakeven
+Spread = Higher Strike – Lower Strike
+Net Credit = Premium Received for Higher strike – 2*Premium paid for lower strike
+Max Loss = Spread – Net Credit
+Max Loss occurs at = Lower Strike
+The payoff when market goes up = Net Credit
+Lower Breakeven = Lower Strike – Max Loss
+Upper Breakeven = Lower Strike + Max Loss
+Irrespective of the time to expiry opt for ITM and OTM strike combination
+Increase in volatility is good for this strategy when there is more time to expiry
+
+https://zerodha.com/varsity/chapter/the-long-straddle/
+Strategies which are insulated to market direction are called ‘Market Neutral’ or ‘Delta neutral’
+Market neutral strategies such as long straddle makes money either which way the market moves
+Long straddle requires you to simultaneously buy the ATM Call and Put option. The options should belong to the same underlying, same strike, and same expiry
+By buying the CE and PE – the trader is placing the bet on either direction
+The maximum loss is equal to the net premium paid, and it occurs at the strike at which the long straddle has been initiated
+The upper breakeven is ‘strike + net premium’. The lower breakeven is ‘strike – net premium’
+The deltas in a long straddle adds up to zero
+The volatility should be relatively low at the time of strategy execution
+The volatility should increase during the holding period of the strategy
+The market should make a large move – the direction of the move does not matter
+The expected large move is time bound, should happen quickly – well within the expiry
+Long straddles are to be set around major events, and the outcome of these events to be drastically different from the general market expectation.
+
+https://zerodha.com/varsity/chapter/the-short-straddle/
+Short straddle requires you to simultaneously Sell the ATM Call and Put option. The options should belong to the same underlying, same strike, and same expiry
+By selling the CE and PE – the trader is placing the bet that the market wont move and would essentially stay in a range
+The maximum profit is equal to the net premium paid, and it occurs at the strike at which the long straddle has been initiated
+The upper breakdown is ‘strike + net premium’. The lower breakdown is ‘strike – net premium’
+The deltas in a short straddle adds up to zero
+The volatility should be relatively high at the time of strategy execution
+The volatility should decrease during the holding period of the strategy
+Short straddles can be set around major events, wherein before the event, the volatility would drive the premiums up and just after the announcement, the volatility would cool off, and so would the premiums.
+
+https://zerodha.com/varsity/chapter/the-long-short-strangle/
+The strangle is an improvisation over the straddle, the improvisation helps in the strategy cost reduction
+Strangles are delta neutral and is insulated against any directional risk
+To set up a long strangle one needs to buy OTM Call and Put option
+The maximum loss in a long strangle is restricted to the extent of the premium received
+The profit potential is virtually unlimited in the long strangle
+The short strangle is the exact opposite of the long strangle. You are required to sell the OTM call and put option in a short strangle
+The Greeks have the same effect on strangles and straddles
+
+https://zerodha.com/varsity/chapter/max-pain-pcr-ratio/
+Option Pain theory assumes that the option writers tend to make more money consistently compared to option buyers.
+Option pain assumes that option writers can influence the price of options on the day of expiry.
+One can use the theory of option pain to identify the price at which the stock/index is likely to expiry.
+The strike at which the option writers would experience least amount of loss is the strike at which the stock/index likely to expire.
+The PCR is calculated by dividing the total open interest of Puts by the total open interest of the Calls.
+The PCR is considered as a contrarian indicator.
+Generally a PCR value of over 1.3 is considered bearish and a PCR value of less than 0.5 is considered bullish.
+
+https://zerodha.com/varsity/chapter/iron-condor/
+NSE’s new margin framework reduces the margin requirement for market neutral and hedged strategies
+While the short strangle is an excellent strategy, it has open ends with potentially unlimited losses
+The iron condor is an improvisation over the short strangle
+In an iron condor, the long OTM calls and puts protect the open ends of the  short strangle
+Margin required for an iron condor is far lesser compared to a short strangle
+
+https://zerodha.com/varsity/chapter/basics/
+Filing correct Income tax return is the duty of every Indian
+The Income-tax department has access to your market activity
+Only 5% of Indians file Income tax returns and ~1% pay any income tax.
+Financial year (FY) is the year when income was earned, Assessment year (AY) is the year you file your taxes on the income earned
+The financial year is between 1st of April of the current year and 31st March of the following year
+The income tax applicable to you depends on the income tax slab you belong to
+The income tax slabs vary based on your age group
+
+https://zerodha.com/varsity/chapter/classifying-your-market-activity/
+Trading F&O (Equity, currency, commodity) is considered non-speculative business
+Trading intraday equity is considered speculative business
+Equity holdings for more than 1 year are considered Long term capital gain (LTCG)
+Equity holdings between 1 day to 1 year with a low frequency of trades is considered Short term capital gain (STCG), else in case of a high frequency of trades it should be considered as non-speculative business income
+ 
+https://zerodha.com/varsity/chapter/taxation-for-investors/
+LTCG : Equity, Equity MF – 0% for first Rs 1lk, 10% on exceeding Rs 1lk, Debt MF: 20% after indexation benefit
+STCG: Equity: 15%, Equity MF: 15%, Debt MF: as per individual tax slab
+You can use the cost inflation index to determine and get the benefit from the indexed purchase value
+Index purchase price = Indexed purchase value = Purchase value * (CII for the year of sale/ CII for the year of purchase)
+If you have bought and sold the same shares multiple times then use FIFO methodology to calculate the holding period and Capital gains
+STT is payable to the Govt and cannot be claimed as expense when investing
+
+https://zerodha.com/varsity/chapter/taxation-for-traders/
+Speculative business income if trading intraday equity.
+Non-speculative if trading F&O, or short term equity delivery actively.
+Speculative losses can’t be set-off against non-speculative gains.
+The advance tax has to be paid when trading as a business –15% by Jun 15th 45% by Sep 15th, 75% by Dec 15th, and 100% by Mar 15th.
+Can claim all expenses if income from trading shown as a business income.
+
+https://zerodha.com/varsity/chapter/turnover-balance-sheet-and-pl/
+Audit of the books is required if turnover is more than Rs 5 Crore mark
+Audit of the books is required if turnover is less than Rs 5 Crore but if the profits are less than 6% and total income more than the basic exemption limit (was 2 cr until FY 2019/20)
+Audit of the books is NOT required if turnover is less than INR 5 Crore and profits higher than 6% of the turnover (was 2 cr until FY 2019/20)
+Turnover does not take into consideration the regular contract turnover
+Turnover refers to the business turnover
+Business turnover (for trading as a business) can be calculated scrip wise or trade wise
+Trade wise turnover is the most compliant way of declaring turnover.
+If you are declaring trading as a business then one needs to use the ITR3 (ITR 4 until 2016) form to file tax returns
+ITR3 requires you to have Balance Sheet and Profit and Loss statement along with books of account
+Balance sheet equation states that Net worth = Assets – Liabilities
+P&L statement details the revenues and expenses
+If trading as a business maintaining 2 books of accounts becomes mandatory – Bank Book and Trade book
+It is advisable to maintain and update the Balance Sheet, P&L, and books of accounts once in every quarter.
+
+https://zerodha.com/varsity/chapter/itr-forms/
+The act of paying your taxes is called “Tax Payment”, which can be done via e-payment
+The act of communicating different sources of income and tax paid against that is called “Income Tax Return filing”
+Filing income tax returns is mandatory, even though you have paid taxes
+An ITR form should be used to file taxes
+Use different ITRs for different sources of income
+ITR 4S for presumptive business income. Use this to lower your cash outflow (paying taxes versus audit fees)
+
+https://zerodha.com/varsity/chapter/currency-basics/
+The Gold Standard system of evaluating currencies existed for a long time, but eventually got phased out.
+The currency inequality between currencies exists because of political and economic differences between the two countries.
+By volumes, the currency markets are easily one of the largest.
+The currency markets are open 24 hours, 6 days a week.
+Currency is traded as pairs.
+Currency Pairs have a standard format to include Base Currency and Quotation Currency.
+The Base Currency is always fixed to 1 unit
+
+https://zerodha.com/varsity/chapter/reference-rates-impact-of-events/
+The base currency is said to strengthen/appreciate against the quotation currency when it can buy more units of quotation currency.
+The base currency is said to weaken/depreciate against the quotation currency when it buys lesser units of the quotation currency.
+When you go long on a currency pair, you are essentially going long on the base currency and short on the quotation currency.
+When you go short on a currency pair, you are essentially going short on the base currency and long on the quotation currency.
+The RBI sets the reference rate of USD INR daily by conducting a poll; the ‘contributing banks’ participate in this poll.
+The reference rates for other currency pairs are derived by crossing technique.
+Understanding events and its impact on currencies are complicated, simply because of the currency is quoted in pairs and impact on the pair could be similar.
+Eventually, the more dominating event will set the direction for the pair.
+Countries with higher interest rates tend to have stringer currencies and vice versa.
+Lower the trade deficit of the country; stronger is the country’s currency.
+Higher inflation leads to the strengthening of currency and vice versa.
+Knowing the cause and effect of events on currencies helps while trading currencies.
+
+https://zerodha.com/varsity/chapter/impact-of-events-brexit-interest-rate-parity/
+Events like Brexit tend to have an extraordinary influence on currencies.
+A country whose economy is expected to suffer tends to have a weaker currency.
+Forward premia are the expected spot rate over a given period.
+Forward premia = S * ( 1+ Roc * N) / (1 + Rbc * N)
+Interest Rate parity indicated that the forward premia are approximately equal to the spot rate plus spot times the difference in interest rate.
+Future value of any currency which has a higher interest rate is at a discount to a currency which has a lower interest rate
+
+https://zerodha.com/varsity/chapter/the-usd-inr-pair/
+The contract specification specs out the logistics of the USD INR derivative.
+The lot size is fixed to $1,000, but this can be changed by the exchange anytime.
+Expiry of the USD INR contract is 2 days before the last working day of the month. The contract can be held/traded till 12:30 PM.
+Margins applicable = SPAN + Exposure, usually the margins add upto 2.25 – 2.5%.
+Currency pairs are quoted upto the 4th decimal place.
+A pip is the minimum price moment allowed in a currency.
+Currency options are European in nature.
+The premium quoted in currency options is in INR.
+Strikes are available at every 25 paisa price difference.
+Margins are blocked when you intend to write currency options.
+
+https://zerodha.com/varsity/chapter/the-usd-inr-pair-part-2/
+The classic future – spot arbitrage is not really accessible to the retail market. Hence traders tend to look at calendar spreads.
+In a calendar spread you simultaneously buy and sell contracts belonging to two different expires.
+A future Bull spread is when you buy near month futures and sell the further month expiry.
+Futures bear spread when you sell near month futures and buy the further month expiry.
+You can directly trade the spread from your trading terminal; these are called the ‘Spread contracts’
+The USD INR pair tends to have lower volatility when compared to Nifty 50
+The USD INR and Nifty 50 are inversely correlated
+
+https://zerodha.com/varsity/chapter/eur-gbp-and-jpy/
+The underlying for EUR INR is the spot rate of 1 Euro in Indian Rupees.
+The lot size for EUR INR is €
+The underlying for GBP INR is the spot rate of 1 GBP in Indian Rupees. GBP INR is the 2nd most traded contract in the currency segment.
+The lot size for GBP INR is £.
+Internationally GBP USD is also referred to as the ‘Cable’.
+JPY INR has the highest margin requirement in the currency segment, perhaps due to the higher volatility.
+Lot size in JPY INR is 100000.
+The underlying in JPY INR is the rate of 100 Japanese Yen in Indian Rupees.
+As opposed to popular belief, there is no seasonality in the USD INR pair – either every week or every month.
+TA can be applied to currencies just like the way it can be applied to stocks.
+
+https://zerodha.com/varsity/chapter/gold-part-1/
+Gold is one of the most popular bullion contracts that gets traded on MCX.
+The gold contract comes in a few variants – Big Gold, Gold Mini, Gold Guinea, and Gold Petal.
+Big Gold is the most popular contract, but requires a margin over Rs.1,25,000/-.
+The P&L per tick for the big Gold is Rs.100.
+P&L per tick can be calculated as = (Lot Size / Quotation) * Tick Size.
+Gold Mini is the 2nd most popular Gold contract, requires a margin of roughly 15K.
+Gold Petal and Guinea are other variants demanding much lower margin requirement. However, the liquidity in these contracts is quite low.
+It is always a good idea to stick to the nearest month contract as liquidity is high in these contracts.
+Delivery is compulsory for all these contracts; therefore, it makes sense to close these contracts at least 4 days before the expiry of the contract.
+
+https://zerodha.com/varsity/chapter/gold-part-2/
+The price of Gold if fixed twice a day in the AM & PM session in London
+Only designated banks can participate in the London fix.
+India too has a gold fix, similar to London fix – however, there is some circularity here as traders tend to look at the prices of MCX.
+The spot price of gold in US and India differs mainly owing to the additions duties, taxes, and charges that get added in India.
+Since spot prices vary, so does futures price.
+Dollar and Gold are inversely related.
+Commodity fundamentals are complex to understand. Hence traders tend to look at demand and supply.
+Demand & supply reflects in the current price, and also manifests itself in charts.
+You can apply technical analysis on Gold and other commodities
+
+https://zerodha.com/varsity/chapter/silver/
+Gold and Silver are correlated both on an intraday basis and on an end of day basis.
+Gold and Silver make a good pair for trading based on the ‘Pair trading technique’.
+Silver does not have a great correlation with crude oil.
+There are 4 variants of silver traded on MCX.
+The main Silver contract has a lot size of 30 kgs and requires a margin close to Rs.75,000/-.
+The average margin requirement for silver is roughly between 5-6% of the contract value.
+Technical analysis works quite well on Silver.
+
+https://zerodha.com/varsity/chapter/crude-oil-part-2-the-crude-oil-eco-system/
+It is important to understand the Oil & Gas ecosystem and map how companies are mapped under this ecosystem.
+Upstream companies are asset-heavy and are involved in extracting oil from the ground.
+Increase in oil price is good for upstream companies, while a decrease is not.
+Downstream companies mainly consist of refineries. Higher oil price is not good for them while lower oil prices are good (as their margins tend to increase).
+Midstream companies are involved in oil and gas logistics. They prefer stability in oil prices as they do business with both upstream and downstream companies.
+WTI and Brent are two variants of crude oil varying mostly in terms of API gravity and sweetness.
+Brent Crude is the international benchmark.
+Keeping track of inventory levels is critical. Increase in inventory tends to decrease the crude oil price, and drop inventory tends to increase the prices of crude oil.
+The USD index and crude oil share an inverse correlation over longer periods. However, this relationship may break over short time frames owing to their own supply-demand dynamics.
+
+https://zerodha.com/varsity/chapter/crude-oil-part-3-the-crude-oil-contract/
+There are two crude oil contracts available – Crude Oil and Crude Oil mini.
+Both the contracts vary in the lot size. Lot size of the big crude is 100 barrels while the crude mini’s lot size is 10 barrels.
+Price quote is on a per-barrel basis.
+Every month new crude oil contracts are introduced which expire 6 months later.
+Expiry is on the 19th of every month.
+The current month contract attracts maximum liquidity.
+Arbitrage between the two crude contracts can be executed – but one has to ensure contract values are similar.
+
+https://zerodha.com/varsity/chapter/copper-aluminium/
+Both Copper and Aluminium are base metals.
+Aluminium is found in abundance (next only to silicon and oxygen).
+The demand-consumption of aluminium and copper seem to have some equilibrium.
+The prices of both aluminium and copper have declined over the years.
+The prices of aluminium and copper on the London Metal Exchange (LME) act as a reference price for these international commodities.
+Both copper and aluminium have two contracts – the big one and mini.
+The contracts vary in lot size and therefore contract values and margins.
+
+https://zerodha.com/varsity/chapter/lead-nickel/
+There are two contracts for Lead Futures; Lead and Lead Mini.
+Lot size of Lead is 5000 MT, and Lead Mini is 1000 MT.
+P&L per tick is Rs. 250 for Lead and Rs. 50 for Lead Mini.
+‘Demand supply’ has remained stable for Lead over the last few years.
+There are two contracts for Nickel futures; Nickel and Nickel Mini.
+Lot size of Nickel is 250 Kgs and 100 kgs for Nickel Mini.
+P&L per tick is Rs. 25 for Nickel and Rs. 10 for Nickel Mini.
+Nickel production has outstripped its demand.
+It is advisable to stick to the current month futures of both Lead and Nickel.
+It makes sense to look at price data to place short term trades in both Lead and Nickel.
+
+https://zerodha.com/varsity/chapter/cardamom-mentha-oil/
+Agriculture as an industry contributes close to 10% to the Indian economy, but it is still the largest employer in India.
+India is still very dependent on rainfall when it comes to agriculture.
+There are two main rainfalls – Southwest monsoon (principal rainfall) and northeast monsoon.
+Crops sowed and harvested in southwest monsoon is called Kharif. Rice is a major Kharif crop.
+Crops sowed and harvested in northeast monsoon is called Rabi. Wheat is a major Rabi crop.
+Agri commodities are traded till 5:00 PM on MCX.
+India is the largest consumer of cardamom and 2nd largest producer of Cardamom, stands 2nd to Guatemala in production.
+Demand supply for cardamom is quite stable.
+MIS margin is not available for agri commodities.
+Mentha oil is distilled and filtered from Mentha leaves.
+
+https://zerodha.com/varsity/chapter/natural-gas/
+Natural gas occurs naturally and is found deep underground.
+Natural Gas has been in use since ancient times.
+The primary use of natural gas includes power generation, heating, cooking etc.,
+India is the 7th largest natural producer of natural gas.
+Lot size of natural gas is 1250 MMBtu, price quote if for 100 mmBtu.
+P&L per tick is Rs.125/- per tick.
+Natural gas futures on MCX mimic s the price movement of Natural gas on NYMEX.
+
+https://zerodha.com/varsity/chapter/commodity-options/
+Options on commodities will be on Futures as underlying.
+One cannot use the regular Black & Scholes Calculator for identifying the premium and Greeks.
+Black 76 is the model used for Options on futures.
+Upon exercising the option devolves into a futures position.
+CTM options are two strikes above and below ATM
+If a CTM option holder does not give explicit instruction, then the option is deemed worthless.
+An ITM option holder can give a ‘contrary instruction’, to choose not to exercise the option. You will opt for this if you know that the position is not going to be profitable owing to taxes and applicable charges
+
+https://zerodha.com/varsity/chapter/cross-currency-pairs/
+Cross-currency pairs are allowed to trade in NSE for the first time
+Lot size of $1000 for EUR/USD, £1000 GBP/USD and $1,000 for USD/JPY
+The pairs will be traded in quote currency but will be settled in Indian Rupees
+Daily and Final M2M settlement will be based on the RBI reference rates.
+Near month contracts will expire 2 days before the last trading day of the month at 12.30 PM
+
+https://zerodha.com/varsity/chapter/risk-part-1/
+When you buy a stock, you are exposed to unsystemic and systemic risk.
+The unsystemic risk concerning a stock is the risk that exists within the company
+Unsystemic risk affects only the stock and not its peers
+Unsystemic risk can be mitigated by simple diversification
+Systemic risk is the risk prevalent in the system
+Systemic risk is common across all stock
+One can hedge to mitigate systemic risk.
+No hedge is perfect – which means there is always an element of risk present while transacting in markets
+The expected return is the probabilistic expectation of a return
+The expected return is not a guarantee of return
+The portfolio’s expected return can be calculated as – E(RP) = W1R1 + W2R2 + W3R3 + ———– + WnRn
+
+https://zerodha.com/varsity/chapter/risk-part-2-variance-covariance/
+Variance measures the dispersion of returns over the expected average returns
+Higher variance indicates higher risk, lower variance indicates lower risk
+Square root of variance is standard deviation
+Covariance between the returns of two stock measures how the returns of the two stocks vary
+A positive covariance indicates that the returns move positively and a negative covariance indicates that while one stock returns moves up, the other comes down
+Correlation measures the strength of the movement
+Covariance between two stocks divided over their individual standard deviations results in a correlation between two stocks.
+When we have more than 2 stocks in a portfolio, we compute the variance-covariance using a matrix
+
+https://zerodha.com/varsity/chapter/risk-part-3-_variance-covariance-matrix/
+X is defined as an excess return matrix
+Excess return matrix is simply the time series difference daily return versus the average daily return
+XT is defined as the transpose of X
+Variable n is defined as the number of observations in the data set. For example if you have 6 months data, n is 127, for 1 year data n would be 252
+Excess return matrix is of the size n x k, where k is the number of stocks
+When you divide the matrix product of XT X by n, we get the variance covariance matrix
+The variance covariance matrix is of the size k x k
+The covariance of stock 1 with itself is the variance of stock 1
+The variance covariance matrix will lead us to the correlation matrix.
+
+https://zerodha.com/varsity/chapter/risk-part-4-correlation-matrix-portfolio-variance/
+Correlation matrix gives out the correlation between any two stocks in a portfolio
+Correlation between stock A with stock B is the same as the correlation between stock B with stock A
+Correlation of stock with itself is always 1
+The diagonals of a correlation matrix should represent the correlation of stock A with itself
+The correlation matrix contains symmetrical values above and below the diagonals
+
+https://zerodha.com/varsity/chapter/equity-curve/
+An equity curve is a standard way to visualize the performance of a portfolio
+A standard industry wide practice is to normalize the portfolio to a starting investment value of Rs.100/-
+We assign weights and the respective investment to each stock
+We need to calculate the daily change in investment value in each stock
+The sum total of all the variation in each stock adds up to the variation of the entire portfolio
+The graph of the change in daily prices of the portfolio yields the equity curve
+We can look at the portfolio as a whole, as a single stock and calculate its SD
+The SD of portfolio also yields the portfolio variance
+
+https://zerodha.com/varsity/chapter/expected-returns/
+The returns of the portfolio is dependent on the weights of the individual stocks in the portfolio
+The calculate the effect of an individual stock on the overall portfolio’s return, one has to multiply the average return of the stock by its weight
+The overall expected return of the portfolio is grand sum of the individual stock’s returns (which is scaled by its weight)
+The daily variance can be converted to annualized variance by multiplying it by square root of 252
+The variance of the portfolio which we calculate is by default the 1st standard deviation value
+To get the 2nd and 3rd SD, we simply have to multiply it by 2 and 3
+The expected return of the portfolio can be calculated as a range
+To get the range, we simply have to add and subtract the variance from the portfolio’s expected return
+Each standard deviation comes with a certain confidence level. For higher confidence level, one has to look at moving higher standard deviation
+
+https://zerodha.com/varsity/chapter/port-opt/
+The returns of the portfolio is dependent on the weights assigned to each stock
+Minimum variance portfolio is that portfolio where the variance or risk is least possible for the given set of stocks
+Maximum return portfolio is that portfolio where the expected portfolio returns are maximized for the given set of stocks
+When we fix the variance of a portfolio we can achieve at least two portfolios where the expected portfolio returns can be maximum or least
+One can optimize a given portfolio with ‘n’ number of stocks on excel, by using the solver tool
+One of the most important points to remember while using solver is to ensure the data is well organized. One can do this by linking all the relevant cells and avoiding hard coding of values
+You can optimize the portfolio by subjecting the variable to constrains
+
+https://zerodha.com/varsity/chapter/po2/
+A portfolio with certain weights to each stock is considered unique
+When we fix the desired level of risk, we can optimize the portfolio to yield the minimum return and maximum return portfolios
+Between the min and max return portfolio (for a given fixed level of risk), we can have multiple unique portfolios
+The scatter plot of risk and return gives us the efficient frontier
+For a given level of risk, the best possible portfolio one can construct would lie on the efficient frontier, all other portfolios are deemed inefficient
+
+https://zerodha.com/varsity/chapter/var/
+Events which have a very low probability of occurrence is called ‘Black Swan ’events
+When a black swan event occurs, a portfolio can experience higher levels of losses
+Value at Risk is one approach to estimate the worst case loss if a black swan event were to occur
+We can estimate the portfolio VaR by studying the distribution of the portfolio returns
+The average of the last 5% of the observation gives us the Value at Risk of the portfolio.
+
+https://zerodha.com/varsity/chapter/position-sizing/
+Position sizing forms the corner stone of a trading system
+Gamblers fallacy is a bias highly applicable to the trading world. It makes the trader believe that a long streak of a certain outcome can break
+When there are infinite draws, the odds of making a profit or loss on the Nth trade is similar to the odds of making the same profit or loss on the 1st trade
+The recovery of capital is much more difficult task than one can imagine
+Traders with small accounts have a tendency to take larger bets, which they need to avoid
+
+https://zerodha.com/varsity/chapter/position-sizing-active-traders-part-2/
+Estimating equity capital is crucial for position sizing
+Core equity model deducts the capital allocated to a trade and recalculate the capital available
+Total Equity model requires you to add the free cash, margins blocked, and the P&L of the positions to estimate the equity capital
+Reduced Total Equity model requires you to add the free cash to the locked in profits of an existing position
+
+https://zerodha.com/varsity/chapter/position-sizing-active-traders-part-3/
+Estimating equity plays an important part in position sizing
+Suppose you have 3 ways to estimate equity and 4 ways to position size, then essentially you have a 4 x 3 = 12 position sizing technique
+Unit fixed model requires you to ascertain how many shares or lots you will trade for every ‘x’ amount of capital in your account
+Unit fixed model does not consider risk
+Percentage margin method requires you to define the maximum margin amount you will expose your capital to. You ideally should club this with total reduced equity model
+Percentage volatility measures volatility in term or ATR.
+Percentage volatility equal weights ‘volatility’ exposure to each position
+
+https://zerodha.com/varsity/chapter/kellys-criterion/
+Percentage Risk is an easy and intuitive position sizing technique
+One has to define the maximum amount of risk one as a percentage of capital, dividing this over the stop-loss gives us a sense of how much capital one should expose to a trade
+Kelly’s Criterion suggests how much capital one can expose for a given trade
+One can combine Kelly’s Criterion with percentage risk for optimal results
+
+https://zerodha.com/varsity/chapter/trading-biases/
+Markets are complex, but the means to analyze markets need not be complex
+Traders often complicate their charts, subconsciously it makes them think they are invincible, gives them a sense of control
+Illusion of control makes you spend many hours trying to derive data, which is otherwise pointless
+More data does not necessarily mean quality of information
+Recency bias makes you turn a blind eye to the past events (which could have more impact on markets)
+Having a sense of the overall picture helps you prevent yourself from falling prey to recency bias
+
+https://zerodha.com/varsity/chapter/tradingbiases-p2/
+Anchoring Bias can be quite notorious – tricks the trader/investor to anchor them to the first piece of information
+Anchoring Bias may lead you to miss great opportunities
+Functional Fixedness fixes your opinion on the utility of the tools, restricts your imagination
+One can overcome functional fixedness by practicing ‘out of the box’ thinking approach
+Confirmation bias makes you seek information (or tricks you to assimilate information) which can support your original hypothesis
+In a typical trading world, traders attribute losses to problems in the outside works and not really because of subpar analysis
+Attribution Bias can be overcome by maintaining a trading journal
+
+https://zerodha.com/varsity/chapter/pair-trading-basics/
+The stock prices of two companies with similar business landscape tends to make similar price moves
+The prices moves can be quantified by
+A local event (particular to 1 company) can create an anomaly in the price movement
+When an anomaly occurs an opportunity to trade arises
+In pair trading, you buy the undervalued security and sell the overvalued one
+Pair trading is also called – Relative value trading or statistical arbitrage
+ 
+https://zerodha.com/varsity/chapter/tracking-pairs/
+Spread measures the difference between the closing values of two stocks
+Differentials measures the difference between the closing prices of two stock
+Ratio between the two stocks essentially requires you to divide stock 1 over stock 2
+Divergence is when you expect the two stocks to move apart
+Convergence is when you expect the two stocks closer to each other
+Correlation is like a glue which tells how tightly two stocks move together. ­­
+
+https://zerodha.com/varsity/chapter/pair-stats/
+Care has to be taken to ensure the data is clean and adjusted for corporate actions
+Close correlation is the correlation when calculated on the closing prices of stocks
+The % return correlation is the correlation when calculated on the daily returns of the stock
+Mean is the arithmetic average of the data series
+Median is the middle observation of a data series.
+If the data series has even number of observations, then the median is the average of the middle two observations
+If the data series has odd number of observations, then the median is the middle observation
+The mode of a data series is that value which repeats the highest number of times
+The mean and median, when viewed together to each other, offers great insight into the data trend.
+
+https://zerodha.com/varsity/chapter/pre-trade-setup/
+Normal distribution plays a pivotal role in pair trading
+Within the 1st standard deviation, one can observe 68% of the data
+Within the 2nd standard deviation, one can observe 95% of the data
+Within the 3rd standard deviation, one can observe 99.7% of the data
+Standard deviation and absolute deviation measures the variability of the data
+The standard deviation table gives us a sense of how the current data stands with respect to its expected variation
+The cues to trade the pair either long or short comes from the standard deviation table.
+
+https://zerodha.com/varsity/chapter/the-density-curve/
+Ratio as a variable is more versatile as it captures the valuation elements of the stock
+The ratio tends to trade above or below its mean value
+The idea is the ratio, when it deviates away from the mean, will also tend to revert to mean
+At every point at which the ratio deviates, we can measure the probability of its reversion to mean
+The above point can be measured by normal distribution
+The density curve is a non-negative value which varies between 0 and 1. This can be easily calculated on MS Excel by using an in build function.
+
+https://zerodha.com/varsity/chapter/the-pair-trade/
+The density curve acts as a key trigger to initiate a pair trade
+A pair trade is initiated when the ratio drifts to a value between 2 and 3 standard deviation
+A pair trade is closed when the ratio approaches the mean
+Long pair trade requires you to buy the numerator and sell the denominator
+Short pair trade requires you to sell the numerator and buy the denominator
+Typically, the bulk of P&L comes from one of the stocks which have deviated away from the regular pair trade
+Pair trade can be live for an extended period, but the P&L makes the wait worth it
+Pair trade is a margin money guzzler.
+
+https://zerodha.com/varsity/chapter/straight-line-equation/
+A straight line equation can define the relationship between two variables
+Of the two variables, one of it is dependent and the other one is independent
+The slope of a straight-line equation, represented by ‘m’ helps you identify the extent by which the independent variable has to be scaled
+The term ɛ represents a constant term
+If the slope is zero, the Y = ɛ
+Sometimes, the relationship between two variables is not obvious
+When the relationship is not obvious, one can identify the relationship by employing a statistical technique called ‘Linear regression’.
+
+https://zerodha.com/varsity/chapter/linear-regression/
+Linear regression is a statistical operation which helps you construct a straight line equation
+Linear regression can be performed on excel. One needs to install the excel plugin to perform linear regression
+Amongst many other output variables, linear regression gives out the values of the slope and intercept
+With the help of the slope and intercept, one can predict the value of y
+The difference between actual y and predicted y is called the residual
+The residual is also a part of the output summary
+
+https://zerodha.com/varsity/chapter/the-error-ratio/
+X is the independent stock and Y is the dependent stock
+The decision to figure out which stock is X and which one should be Y depends on ‘Error Ratio’
+Both the slope and the intercept from the linear regression equation are estimates
+Error Ratio = Standard Error of the Intercept / Standard Error
+Standard error is the standard deviation of the residuals
+Standard error of intercept gives you a sense of the variance of the intercept
+Regress Stock 1 with Stock 2 and also Stock 2 with Stock 1, whichever offers the lowest error ratio defines which stock is dependent and which one is independent
+Residuals display certain properties, studying which can help identify pair trading pattern
+
+https://zerodha.com/varsity/chapter/the-adf-test/
+If two stocks move together, then they are also cointegrated
+You can pair trade on stocks which are cointegrated
+If the residuals obtained from linear regression is stationary, then it implies the two stocks are co-integrated
+A time series is considered stationary if the series has a constant mean, constant standard deviation, and no autocorrelation
+The check for stationarity can be done by an ADF test
+The p-value of the ADF test should be 0.05% or lower for the series to be considered stationary.
+
+https://zerodha.com/varsity/chapter/trade-identification/
+The pair trading equation is actually the main equation which we trade
+Every element of the equation is looked into
+We hedge the stock price of y with the stock price of x. The beta of x tells us the number stocks required to hedge 1 stock of y
+By looking into the error ratio, we are ensuring the intercept is kept low. Please remember we are not hedging the intercept, hence this needs to be kept low
+The residual is what we trade as it is stationary and follows the normal distribution quite well
+A long trade is initiated when residuals hit -2SD. Likewise, a short trade is initiated when the residuals hit +2SD
+Long on a pair requires us to go long on Y and short on X
+Short on a pair requires us to go short on Y and long on X
+When we initiate a pair trade, we expect the residual to hit the mean, so we hold until then
+The SL can be kept at 3SD for both long and short trades
+
+https://zerodha.com/varsity/chapter/live-example/
+The trigger to trade a pair comes from the residual’s current value
+Check for beta neutrality of the pair to identify the number of stock required in X and Y
+If the beta of the pair is negative, then it may not be possible to set up the trade
+Once the trade is initiated, check the z-score movement to trade its current position
+The price of the futures does not really matter, the emphasis is only on the z-score
+
+https://zerodha.com/varsity/chapter/momentum-portfolios/
+Momentum is the rate of change of return and can be measured across any time frame
+A price based momentum portfolio consists of stocks which have exhibited highest momentum over the desired time frame
+Tracking universe should be carefully populated. BSE 500 is a good tracking universe
+Calculate the returns for the tracking universe
+Rank the stocks based on highest to lowest return
+The momentum portfolio is simply the top 12 or 15 stocks
+The expectation is that the momentum will continue during the holding period
+The asset allocation technique can vary based on backtesting Equally weighted portfolio is a good asset allocation technique
+Momentum can be measured on fundamental data as well – growth in sales, EBITDA margins, EPS growth, net profit margin etc
+Price based momentum works best in an upward trending market and not really in a sideways or a down trending market.
+
+https://zerodha.com/varsity/chapter/background-and-orientation/
+Personal finance is best when kept personal to oneself.
+Eventually, you as an individual should be able to build a financial plan for yourself and your family
+Savings early on in life makes a huge difference in the savings corpus at the end of the tenure
+Time value of money plays a key role in personal finance.
+
+https://zerodha.com/varsity/chapter/personal-finance-math-part-1/
+Simple interest is the interest that gets paid only on the outstanding principal
+Compound interest is paid on both interest and the principal outstanding
+Interest and return are like two sides of the same coin
+Absolute return is a measure of the growth in return when your investment is for less than a year
+Compounded annual growth rate (CAGR) is the measure of your return when your investment duration is more than a year
+Compounding works best when you give your investments enough time to grow
+
+https://zerodha.com/varsity/chapter/personal-finance-math-part-2/
+Money today is always more valuable than money tomorrow because money today can be invested in interest-bearing instruments
+The time value of money is a core concept of personal finance
+Time value includes the present value and the future value of money
+The present value of money helps us figure the value of a future sum in today’s terms
+Present value = Future value / (1+ discount rate ) ^ (time)
+The discount rate = opportunity cost + risk premium
+Give a certain amount of money today, the future value of money helps us figure out its value at a future date
+Future value of money and the compound interest concept works the same way
+Future value = P*(1+R)^(n)
+R in the above formula is the opportunity cost, whereas the R used in compound interest is the growth rate. This is the only difference between Future value and compound interest.
+
+https://zerodha.com/varsity/chapter/the-retirement-problem-part-1/
+Retirement is a real-life financial problem that we all need to address
+Inflation complicates things. Money today is not the same as tomorrow
+Inflation diminishes the purchasing power of money
+Use the future value of money to estimate the worth of money today, ‘n’, many years later.
+
+https://zerodha.com/varsity/chapter/the-retirement-problem-part-2/
+In a multi-asset portfolio, the aggregate portfolio return is the sum product of the asset weight and the asset’s expected returns
+Equity exposure is a critical component in long term wealth creation
+Investing small amounts of money regularly leads to a massive retirement corpus
+
+https://zerodha.com/varsity/chapter/introduction-to-mutual-funds/
+A fund manager is responsible for managing the mutual fund
+The sponsor of the AMC is like the promoter of a mutual fund
+The sponsor holds the AMC license
+The sponsors appoint a trustee and AMC company
+AMC is the investment manager responsible for running the mutual fund
+Custodian appointed by the AMC is responsible for holding shares and other assets of the AMC
+The RTA is responsible for servicing the AMC’s unitholders
+
+https://zerodha.com/varsity/chapter/concept-of-fund-nav/
+In a mutual fund, different people invest in a collective investment vehicle with a common investment objective
+Every investor in a mutual fund is treated equally in terms of percentage return
+At the start of the fund activity, every investor is issued shares/units at a notional value
+The value of the shares/units change based on how invested assets perform daily
+ 
+https://zerodha.com/varsity/chapter/the-mutual-fund-fact-sheet/
+The factsheet of a mutual fund details all the essential parameters worth knowing about the mutual fund
+The investment objective of a fund is essentially the guiding principle for the investment the fund manager makes
+Open-ended funds don’t have an ‘expiry’ for the fund. It can go on forever
+Close-ended funds are time-bound
+Regular plans pay out distributor commissions, hence lower yield to investors
+The direct plan does not pay distributor commissions; hence the returns are higher for the investor
+The MF investor can choose to receive or reinvest the dividends
+Riskometer is a self-assessment of risk by the AMC
+ 
+https://zerodha.com/varsity/chapter/the-equity-scheme-part-1/
+Large-cap stocks – 1st to 100th company in terms of full market capitalization
+Mid-cap stocks – 101st to 250th company in terms of full market capitalization
+Small-cap stocks – 250th company onwards in terms of full market capitalisation
+Large-cap funds should contain at least 80% in large-cap stocks. Large-cap funds are expected to have lower volatility and steady returns
+Mid-cap and small-cap funds have higher volatility and return expectation compared to the large-cap funds
+Mid and large-cap stocks contain at least 35% each of mid and large-cap stocks.
+
+https://zerodha.com/varsity/chapter/equity-scheme-part-2/
+A multi-cap fund does not have any restrictions on where it can invest. The manager invests in any stocks across market caps (large, mid, and small) where he sees opportunities.
+One of the risks to watch out for in a multi-cap fund is the ‘fund manager risk.’
+A focused fund consists of not more than 30 stocks in its portfolio. These are high conviction bets by the fund manager
+The risk and return of a focused fund is higher compared to any other equity oriented fund
+A dividend yield fund does not mean the fund pays regular dividends to its investors
+The dividend yield fund invests in high dividend-yielding stocks
+ELSS funds are tax saving funds under section 80C of the Indian Income Tax act 1961
+A maximum tax saving of 1,50,000/- is permitted when investing in ELSS funds
+An ELSS fund is considered a proxy for a multi-cap fund
+
+https://zerodha.com/varsity/chapter/the-debt-funds-part-1/
+When a corporate entity borrows funds (for more than one year), they do so by issuing bonds
+Corporate borrowings for less than a year is done via the issuance of a commercial paper or the CPs
+When the Government borrows, they do so by issuing a treasury bill or the T-Bill
+Against the borrowing, the borrower pays interest (coupon) to the lender
+The lender faces multiple risks when lending funds to the borrower
+Credit risk and interest rate risk is the primary risk for the lender
+Liquid funds invest only in CPs and T bills with a maximum maturity of 91 days
+Liquid fund is not a proxy for a savings bank account; it carries credit risk.
+ 
+https://zerodha.com/varsity/chapter/the-debt-funds-part-2/
+Overnight funds invest in debt instruments with a 24hr settlement cycle
+Almost all overnight funds invest in Tri party repo
+The performance across overnight funds is similar
+Macaulay Duration of a fund gives us a sense of how long it takes for the fund to get back its invested amount
+Ultra-short duration fund has a Macaulay duration between 3 to 6 months
+Ultrashort duration funds are also risky
+
+https://zerodha.com/varsity/chapter/the-debt-funds-part-3/
+Bond yields and bond prices are inversely proportional
+Interest rate and bond prices are inversely proportional
+Modified duration helps us understand the change in NAV of the fund (in the context of debt fund) for every 1% change in interest rate
+Low duration fund has credit risk, but low-interest rate risk
+Money market fund has credit risk, but low interest rate risk
+Short and medium duration fund has both credit and interest rate risk
+Debt investors have to factor in liquidity risk along with credit and interest rate risk
+ 
+https://zerodha.com/varsity/chapter/the-debt-funds-part-4/
+A debt fund investor should watch out for liquidity risk
+The cash borrowings of a fund is an indicator of liquidity risk
+The Banking and PSU debt funds invest predominantly in banking/financial services, and PSU debt
+The banking and PSU debt carries less credit risk (relatively) compared to its peers
+Credit risk fund carries a high degree of credit risk. A retail investor is better off avoiding this fund
+GILTS don’t have credit risk but have a significant amount of interest rate risk
+ 
+https://zerodha.com/varsity/chapter/investing-in-bonds/
+In a tax-free bond, the coupons are tax-free
+PSU debt carries an implicit sovereign guarantee, and hence very low credit risk
+The coupon is paid as a percentage of the face value
+YTM of a bond is the effective yield the bondholder experiences
+The bond buyer pays accrued interest to the bond seller
+
+https://zerodha.com/varsity/chapter/arbitrage-funds/
+Arbitrage funds are hedged position
+SEBI mandates AMCs to invest a minimum of 65% in arbitrage strategies
+Mutual funds usually spend up to 35% in debt
+Arbitrage funds can be volatile
+One can consider Arbitrage funds as a proxy for low/short duration funds
+
+https://zerodha.com/varsity/chapter/measuring-mutual-fund-returns/
+For lumpsum investments less than one year, use absolute return
+For SIP investments less than one year, use absolute return
+For lumpsum investments over a year use CAGR
+For SIP investments over a year, use XIRR
+CAGR is the growth rate of an investment
+XIRR is a modified form of CAGR
+CAGR and XIRR are same for lumpsum investments over 1 year
+
+https://zerodha.com/varsity/chapter/rolling-returns/
+Point to point return gives a perspective of the return only for the two days under consideration 
+Point to point return should not be taken as a generalization of return 
+The rolling return gives a better perspective of the return
+Rolling return average is a better representation of the returns one can expect
+
+https://zerodha.com/varsity/chapter/mutual-fund-expense-ratio-direct-and-regular-plans/
+Investment in Mutual fund is not free; there is a fee applicable.
+The applicable fee is called the ‘Total Expense Ratio’ or simply the expense ratio
+The TER is expressed as an annual percentage charged
+The TER is charged daily
+The NAV that is declared is post TER deduction
+For a given fund, TER for the direct plan is lesser compared to the regular plan
+For a given fund, the NAV for the regular plan is always lesser compared to the direct plan
+
+https://zerodha.com/varsity/chapter/mutual-benchmarking/
+Benchmarks help you get a perspective of performance.
+Most mutual funds benchmark themselves against TRI, which is the total returns index.
+TRI captures the effect of dividends.
+The returns of the index largely depend on the weights assigned to each of the index constituents.
+TRI returns of Nifty 50, and Nifty 500 is mostly similar.
+You need to set realistic return expectation and set that as a benchmark.
+
+https://zerodha.com/varsity/chapter/mutual-fund-risk-metrics/
+Beta measures the relative risk of the fund compared to its benchmark
+Higher the beta, higher is the relative risk
+Beta is not an indicator of the inherent risk of the fund
+Alpha is the excess return over and above the benchmark return on a risk-adjusted basis
+Higher the beta, lower is the alpha and vice versa
+The standard Deviation measures the riskiness of the fund. Higher the SD, higher is the volatility of the fund
+Sharpe ratio measures the unit of return earned for every unit of risk undertaken
+Higher the Sharpe ratio, better is the fund.
+
+https://zerodha.com/varsity/chapter/sortino-and-the-capture-ratios/
+Sharpe ratio measures the return per unit of risk by considering both the positive and negative returns
+Sortino’s modifies the Sharpe ratio and includes just the downside risk
+Upside capture ratio gives you an estimate of how much of the Index’s upside the fund has captured
+Downside capture ratio gives you an estimate of how much of the Index’s downside returns the fund has captured.
+Look for consistency in capture ratio
+
+https://zerodha.com/varsity/chapter/how-to-analyse-an-equity-mutual-fund/
+You can start the equity mutual fund research with a basic hygiene check to familiarize yourself with the fund
+Know the size of the AUM, its investment objectives, a bit about the fund manager, and its benchmark
+Look for the rolling returns of the fund on 3,5 and 10-year basis.
+Look for the average, minimum, and the maximum returns to get a sense of the dispersion of the return
+Compare the rolling returns with its benchmark rolling returns
+If there is excess return, check if this is coming at the cost of additional risk
+Look for the risk-reward matrix and understand the risk-reward profile on 5 and 10 years basis
+Check the capture ratios
+
+https://zerodha.com/varsity/chapter/how-to-analyze-a-debt-mutual-fund/
+The investment in a mutual fund should align with the financial goal
+Debt mutual funds carry credit risk, interest risk, and change in credit rating risk
+The minimum time duration to invest in a debt fund should be at least equal to the average maturity of the fund
+It is important to analyze the debt fund’s portfolio
+Higher the exposure to corporate bonds, higher is the credit risk
+Sovereign bonds do not carry credit risk but do carry interest rate risk
+One should be concerned about large exposure to a single corporate entity
+One can look at YTM as the measure of risk
+It is best to avoid debt funds with large and small AUMs
+
+https://zerodha.com/varsity/chapter/the-mutual-fund-portfolio/
+The first step in personal finance is to ensure you have health and term insurance
+2nd most important aspect is to ensure you have an emergency corpus
+The financial goal is defined by the amount of corpus required and the time frame available to accumulate the corpus
+One of the easier ways to build a mutual fund portfolio is by using the method of elimination
+Always use a conservative approach and tone down your return expectations
+Try and avoid having multiple funds of the same subcategory, have a minimum non-overlapping portfolio instead
+A common goal for all us to have a retirement corpus
+Once a portfolio is set, a yearly review of the funds is more than sufficient
+Do not over complicate mutual fund portfolio construct
+
+https://zerodha.com/varsity/chapter/smart-beta-funds/
+The idea with this chapter was to give you a working understanding of smart beta and factor investing. I think you need to dive deeper if you wish to allocate to these funds. There are some amazing resources on factor investing, and a cursory Google will surface them. Please dive deeper before investing in these funds.
+Smart beta is just a marketing term. There is no smart beta or dumb beta.
+Smart-beta funds are nothing but factor funds or funds that have alternatively weighted indices unlike Nifty 50 which is market-cap-weighted
+The live performance of factor funds can be different than the indices.
+Factors can be highly cyclical, and individual factors can underperform simple diversified funds or index funds for decades.
+If you want to invest in factor funds, diversification among factors is an important consideration.
+Investing based on the past performance of factors is a terribly bad idea.
+
+https://zerodha.com/varsity/chapter/asset-allocation-an-introduction/
+One cannot avoid buying assets.
+Know the different type of assets, and the factors drive their returns.
+Draw-up an asset-allocation strategy (KISS: Keep It Simple, Stupid!)
+Stick to the allocation strategy because prediction is impossible.
+Nothing works all the time. The world around you changes. Be pragmatic.
+
+https://zerodha.com/varsity/chapter/exchange-traded-funds-etf/
+ETFs trade real-time on the stock exchanges and you can now set-up SIPs in ETFs to invest every month
+Blindly choosing an ETF is a bad idea. ETF due diligence before investing is extremely important
+ETF liquidity is an issue in India because our markets are still small and this needs to be kept in mind when buying and selling
+Always use limit orders and compare the market price of the ETF with the intraday or indicative NAV (iNAV) before buying and selling
+You can check the iNAV on the respective AMC’s website
+Sometimes the iNAVs on AMC sites may be wrong. If the difference between iNAV and the price is huge, it’s a red flag.
+Compare the ETF price with the underlying index or check with the AMC in cases where the ETF prices are way off from the iNAVs/NAVs
+Large-cap and mid-cap Index ETFs make a lot of sense vs actively managed large-cap and mid-cap index funds
+
+https://zerodha.com/varsity/chapter/basics-of-macro-economics/
+The country’s GDP represents the country’s collective economic output; this includes all the goods and services produced within the country’s geographic boundary.
+The nominal GDP growth rate is the GDP’s absolute growth rate; it does not adjust for inflation.
+The real GDP growth rate adjusts for inflation.
+With 2.6 to 2.9 Trillion USD, India’s GDP stands at 5th/6thposition in the global GDP rank.
+As the GDP of the country expands, the market cap also tends to expand.
+India Inc’s revenue consists of tax and non-tax revenue.
+India, Inc’s expense consists of revenue and capital expenditure.
+
+https://zerodha.com/varsity/chapter/introduction-to-financial-modelling/
+A financial model takes in inputs in the form of financial statements and gives us an output mainly in terms of valuations
+Financial modelling involves a non-sequential learning path
+Multiple discussion threads open up while building a financial model
+Basic working knowledge of MS Excel, Balance Sheet, P&L, cashflow is mandatory before venturing into financial modelling
+There are 7-8 steps to follow while building a financial model
+The model that we build has to be flexible to accommodate changes and updates.
+
+https://zerodha.com/varsity/chapter/excel-workbook-setup/
+Pick a company that is easy to model (at least in your initial days of financial modelling)
+The manufacturing sector is slightly better to model compared to the services sector
+Look for reporting consistency in the annual report
+Do not blindly copy data from the annual report onto the excel sheet
+Set up your excel sheet before you can copy the data
+Ensure your excel sheet is consistent
+
+https://zerodha.com/varsity/chapter/historical-data/
+Perform an annual report recce before setting up the excel sheet
+It makes sense to take the latest year’s financial statement for the format; the chances are that you will cover all the line items. But this is only a hack
+Indexing helps in quick navigation
+Differentiate between fact and assumption data points. You can do this by colour coding
+Maintain format hygiene across the sheet
+If need be, breakdown the heavy line to get a better granular view
+
+https://zerodha.com/varsity/chapter/assumptions-part-1/
+Please pay attention to model integrity, as it helps you identify accurate cell linkages
+One can calculate the historical trends either as a growth rate or by taking a simple ratio
+Projections are made by taking averages or by making an intelligent guess
+It is best when the historical trends exhibit a non-volatile range
+Assumptions are an art form; there is no standard method to make assumptions. Your guess is as good as mine.
+
+https://zerodha.com/varsity/chapter/assumptions-part-2/
+Deferred tax is as a percentage of depreciation
+Converting inventory data from Rupee value to the number of days helps us develop unique perspectives into the functioning of the business
+Likewise, with the Receivable data
+A detailed revenue model gives granular insights into the revenue pattern of a company
+All line items belonging to P&L and Balance sheet are assumed in the assumptions sheet. A schedule is built for the items which cant be assumed directly
+Specific schedules give us granular insights into the specific line item
+
+https://zerodha.com/varsity/chapter/revenue-model/
+The revenue model is a sub-model within your primary model
+You can build complex revenue models by starting with simple common sense questions
+All the data needed to make a revenue model is usually available in the annual report of the company
+Use the revenue model to extract other information like capacity utilization, CAPEX cycles, and industry market share.
+
+https://zerodha.com/varsity/chapter/asset-schedule/
+As per the base rule, the closing balance for year 1 is the opening balance for year 2. We use base rule across many schedules in a financial model
+Gross block includes all the assets that the company owns; usually, the gross block number is a heavyweight on the asset side
+Capital expenditure or the CAPEX of a company includes all funds spent on acquiring new assets or maintaining assets
+Asset schedule helps us extract the CAPEX numbers from the gross block number
+To project the CAPEX, ideally, one should look at what the management has to say
+Other CAPEX projections techniques include the averages and the variable method.
+
+https://zerodha.com/varsity/chapter/asset-schedule-part-2/
+Accumulated depreciation stated in the balance sheet is on a cumulative basis.
+The current year depreciation stated in the P&L is for the year only
+You can use the method of proportions to forecast the depreciation for the year
+You can apply the base rule to forecast the accumulated depreciation
+Netblock = Gross block – accumulated depreciation
+
+https://zerodha.com/varsity/chapter/debt-schedule/
+Debt can be secured or unsecured
+The balance sheet gives us the overall debt; associated notes give us the split between secured and unsecured loan
+We can calculate the average of opening and closing balance across secured and unsecured loans to get the average loan
+The best way to project debt is by understanding the management’s view on CAPEX
+If there is no management guideline, its best to keep debt at the same level
+
+https://zerodha.com/varsity/chapter/reserves-schedule-part-1/
+Think of the authorized share capital of the company as the overall approved shares a company can issue
+For new equity issues (over and above the authorized share capital), the company must increase the authorized share capital.
+Share capital stated in the balance sheet is the fully paid-up share capital of the company.
+Dividing the share capital by the face value of the shares gives us the total number of shares.
+The security premium reserve of the company is the excess of funds available over and above the share capital.
+The security premium reserve increases when the company raises fresh Equity.
+General Reserves of the company is earmarked for business operations of a company without any specific purpose.
+The bottom line of the company, i.e. the PAT, flows into the retained earnings section of the Reserves, and that’s one way the P&L and the Balance sheet are connected.
+Dividends and dividend distribution tax gets paid out from the retained earnings.

@@ -1,0 +1,489 @@
+https://zerodha.com/varsity/chapter/the-need-to-invest/
+Invest in securing your future
+The corpus you intend to build at the end of the defined period is sensitive to the return rate the investment generates. A small variation to rate can have a big impact on the corpus.
+Choose an instrument that best suits your risk and return appetite.
+Equity should be a part of your investment if you want to beat the inflation in the long run
+
+https://zerodha.com/varsity/chapter/regulators/
+The stock market is the place to go to if you want to transact in equities.
+Stock markets exist electronically and can be accessed through a stockbroker.
+There are many different kinds of market participants operating in the stock markets.
+Every entity operating in the market has to be regulated, and they can operate only within the framework as prescribed by the regulator.
+SEBI is the regulator of the securities market in India. They set the legal framework and regulate all entities interested in operating in the market.
+Most importantly you need to remember that SEBI is aware of what you are doing and they can flag you down if you are upto something fishy in the markets!
+
+https://zerodha.com/varsity/chapter/financial-intermediaries/
+The market ecosystem is built by a cluster of financial intermediaries, each offering services unique to the functioning of markets.
+A stockbroker is your access to markets, so make sure you choose a broker that matches your requirements, and services well.
+A stockbroker provides you with a trading account which is used for all market-related transactions (buying and selling of financial instruments like shares)
+A Depository is a corporate entity which holds the shares in electronic form, against your name, in your account. Your account with the depository is called the ‘DEMAT’ account.
+There are only two depositories in India – NSDL and CDSL.
+To open a DEMAT account with one of the depositaries, you need to liaison with a Depository Participant (DP). A DP functions as an agent to the Depository
+A clearing corporation works towards clearing and settling of trades executed by you.
+
+https://zerodha.com/varsity/chapter/the-ipo-markets-part-1/
+Before understanding why companies go public, it is important to understand the origin of business.
+The people who invest in your business in the pre-revenue stage are called Angel Investors.
+Angel investors take the maximum risk. They take in as much risk as the promoter.
+The money that angels give to start the business is called the seed fund.
+Angel’s invest relatively a small amount of capital
+Valuation of a company simply signifies how much the company is valued at. When one values the company, they consider the company’s assets and liabilities.
+Face value is simply a denominator to indicate how much one share is originally worth.
+Authorized shares of the company are the total number of shares that are available with the company.
+ The shares distributed from the authorized shares are called the issued shares. Issued shares are always a subset of authorized shares.
+The shareholding pattern of a company tells us who owns how much stake in the company.
+Venture Capitalists invest at an early stage in business; they do not risk Angel investors. The quantum of investments by a VC is usually somewhere in between an angel and private equity investment.
+The money the company spends on business expansion is called capital expenditure or CAPEX
+Series A, B, and C, etc., are all funding that the company seeks as they start evolving. Usually higher the series, higher is the investment required.
+Beyond a certain size, VCs cannot invest, and hence the company seeking investments will have to approach Private Equity firms.
+PE firms invest large sums of money, and they usually invest at a slightly more mature stage of the business.
+In terms of risk, PE’s have a lower risk appetite as compared to VC or angels.
+Typical PE investors would like to deploy their own people on the investee company’s board to ensure business moves in the right direction.
+The valuation of the company increases as and when the business, revenues and profitability increases.
+An IPO is a process using which a company can raise fund. The funds raised can be for any valid reason – for CAPEX, restructuring debt, rewarding shareholders, etc
+
+https://zerodha.com/varsity/chapter/the-ipo-markets-part-2/
+Companies go public to raise funds, provide an exit for early investors, reward employees and gain visibility
+Merchant banker acts as a key partner with the company during the IPO process
+SEBI regulates the  IPO market and has the  final word on whether a company can go public or not
+As an investor in the IPO, you should read through the DRHP to know everything about the company
+Most of the IPOs in India follow a book-building process
+
+https://zerodha.com/varsity/chapter/the-stock-markets/
+A stock market is a place where a trader or an investor can transact (buy, sell) in shares
+A stock market is a place where the buyer and seller meet electronically
+Different opinions makes a market
+The stock exchange electronically facilitate the meeting of buyers, and sellers
+News and events moves the stock prices on a daily basis
+Demand supply mismatch also makes the stock prices move
+When you own a stock you get corporate privileges like bonus, dividends, rights etc
+Holding period is defined as the period during which you hold your shares
+Use absolute returns when the holding period is 1 year or less. Use CAGR to identify the growth rate over multiple years
+Traders, and investors differ on two counts – risk taking ability and the holding period.
+
+https://zerodha.com/varsity/chapter/the-stock-markets-index/
+ An index acts as a barometer of the whole economy.
+An index going up indicates that the market participants are optimistic.
+An index going down indicates that the market participants are pessimistic.
+There are two main indices in India – The BSE Sensex and NSE’s Nifty
+ An index can be used for a variety of purposes – information, benchmarking, trading and hedging.
+ Index trading is probably the most popular use of the index.
+India follows the free-float market capitalization method to construct the index.
+ There are sector-specific indices which convey the sentiment of specific sectors.
+
+https://zerodha.com/varsity/chapter/the-trading-terminal/
+A trading terminal is your gateway to markets. You must know the operations of a trading terminal if you aspire to become an active trader.
+You can load the stock you are interested in on the market watch to track all the relevant information.
+Some of the basic information on a market watch is – LTP, % change, OHLC, and volumes.
+To buy a stock, you need to invoke a buy order form by pressing ‘B’ key. Likewise, to sell a stock you need to invoke a sell order form by pressing ‘S’ key.
+You choose a limit order type when you are keen on transacting at a particular price; else you can opt for a market order.
+You choose CNC as product type if you want to buy and hold the stock across multiple days. If you want to trade intraday, you choose NRML or MIS.
+An order book lets you track orders that are both open and completed. You can modify the open orders by clicking on the modify button at the order book’s bottom.
+Once the order is completed, you can view the trade details in the trade book. In the case of a market order, you can view the exact trade price by accessing the trade book.
+You can press the F6 key to invoke the market depth or snap quote window. The market watch enables you to see bid and ask prices.
+The bid & ask prices refer to the price at which you can transact. By default, the top 5 bid and ask prices are displayed in the market depth window at all times.
+
+https://zerodha.com/varsity/chapter/clearing-and-settlement-process/
+The day you make a transaction, it is called the trade date, represented as ‘T Day.’
+The broker is required to issue you a contract note for all the transactions carried out by the end of T day.
+When you buy a share, the same will be reflected in your DEMAT account by the end of T+2 day.
+All equity/stock settlements in India happen on a T+2 basis.
+When you sell shares, the shares are blocked immediately and the sale proceeds credited again on T +2 day
+
+https://zerodha.com/varsity/chapter/five-corporate-actions-and-its-impact-on-stock-prices/
+Corporate actions have an impact on stock prices.
+Dividends are a means of rewarding shareholders. The dividend is announced as a percentage of the face value.
+If you aspire to get the dividend, you need to own the stock before the ex-dividend date.
+A bonus issue is a form of the stock dividend. This is the company’s way of rewarding the shareholders with additional shares.
+A stock split is done based on the face value. The face value and the stock price changes in proportion to the change in face value
+A rights issue is a way through which the company raises fresh capital from the existing shareholders. Subscribe to it only if you think it makes sense
+Buyback signals a positive outlook of the promoters. This also conveys to the shareholders that the promoters are optimistic about the company’s prospects.
+
+https://zerodha.com/varsity/chapter/key-events-and-their-impact-on-markets/
+Markets and individual stocks react to events. Market participants should equip themselves to understand and decipher these events.
+Monetary policy is one of the most important economic events. During the monetary policy, review actions on a repo, reverse repo, CRR etc. are initiated.
+Interest rates and inflation are related. Increasing interest rates curbs inflation and vice versa
+Inflation data is released every month by MOSPI. As a consumer, CPI inflation data is what you need to track.
+IIP measures industrial production activity. Increase in IIP cheers the markets, and lower IIP disappoints the market.
+PMI is a survey-based business sentiment indicator. The PMI number oscillates around the 50 marks. Above 50 is good news to markets, and PMI below 50 is not.
+The Budget is an important market event where policy announcements and reform initiatives are taken. Markets and stocks react strongly to budget announcements.
+Corporate earnings are reported every quarter. Stocks react mainly due to the variance in actual number versus the street’s expectation.
+
+https://zerodha.com/varsity/chapter/background/
+Technical Analysis is a popular method to develop a point of view on markets. Besides, TA also helps in identifying entry and exit points.
+Technical Analysis visualizes the actions of market participants in the form of stock charts.
+Patterns are formed within the charts, and these patterns help a trader identify trading opportunities.
+TA works best when we keep a few core assumptions in perspective.
+TA is used best to identify short terms trades
+
+https://zerodha.com/varsity/chapter/introducing-technical-analysis/
+Its scope does not bind technical Analysis. The TA concepts can be applied across any asset classes as long as it has a time-series data.
+TA is based on a few core assumptions.
+Markets discount everything
+The how is more important than why
+Price moves in trends
+History tends to repeat itself.
+A good way to summarize the daily trading action is by marking the open, high, low and close prices usually abbreviated as OHLC
+
+https://zerodha.com/varsity/chapter/chart-types/
+Conventional chart type cannot be used for technical analysis as we need to plot 4 data points simultaneously.
+A line chart can be used to interpret trends, but no other information can be derived.
+Bar charts lack visual appeal, and one cannot identify patterns easily. For this reason, bar charts are not very popular.
+There are two types of candlesticks – Bullish candle and Bearish candle. The structure of the candlestick, however, remains the same.
+When close > open = It is a Bullish candle. When close < open = It is a Bearish candle.
+Time frames play a very crucial role in defining trading success. One has to choose this carefully.
+The number of candle increases as and when the frequency increases
+Traders should be in a position to discard noise from relevant information
+
+https://zerodha.com/varsity/chapter/getting-started-candlesticks/
+History tends to repeat itself – we modified this assumption by adding the factor angle.
+Candlestick patterns can be broken down into single and multiple candlestick patterns.
+There are three important assumptions specific to candlestick patterns.
+Buy strength and sell weakness.
+Be flexible – quantify and verify.
+Look for a prior trend.
+
+https://zerodha.com/varsity/chapter/single-candlestick-patterns-part-1/
+Remember the rules based on which candlesticks work.
+Marubozu is the only pattern which violates rule number 3, i.e. Look for the prior trend.
+A bullish marubozu indicates bullishness.
+Buy around the closing price of a bullish marubozu
+Keep the low of the marubozu as the stoploss
+A bearish marubozu indicates bearishness.
+Sell around the closing price of a bearish marubozu
+Keep the high of the marubozu as the stoploss
+An aggressive trader can place the trade on the same day as the pattern forms.
+Risk-averse traders can place the trade on the next day after ensuring that it obeys rule number 1, i.e. Buy strength, and Sell weakness.
+Abnormal candle lengths should not be traded.
+Short candle indicates subdued activity.
+Long candle indicates extreme activity; however, placing stoploss becomes an issue.
+
+https://zerodha.com/varsity/chapter/single-candlestick-patterns-part-2/
+A spinning top has a small real body. The upper and lower shadows are almost equal in length.
+The colour of the spinning top does not matter. What matters is the fact that the open and close prices are very close to each other.
+Spinning tops convey indecision in the market with both bulls and bears being in equal control.
+Spinning top at the top end of the rally indicates that either the bulls are pausing before they can resume the uptrend further or the bears are preparing to break the trend. In either case, the trader’s stance has to be cautious. If the trader intends to buy, he is better off buying only half the quantity, and he should wait for the markets to move in his direction.
+Spinning top at the bottom end of the rally indicates that either the bears are pausing before they can resume the downtrend further or the bulls are preparing to break the trend and take the markets higher. Either case, the trader’s stance has to be cautious. If the traders intend to buy, he is better off buying only half the quantity, and he should wait for the markets to make a move.
+Doji’s are very similar to spinning tops. Doji also conveys indecision in the market. By definition, dojis do not have a real body. However, in reality, even if a wafer-thin body appears, it is acceptable.
+A trader’s stance based on dojis is similar to the stance taken when a spinning top occurs.
+
+https://zerodha.com/varsity/chapter/single-candlestick-patterns-part-3/
+A paper umbrella has a long lower shadow and a small real body. The lower shadow and the real body should maintain the ‘shadow to real body’ ratio. In the case of the paper umbrella, the lower shadow should be at least twice the real body’s length.
+Since the open and close prices are close to each other, the paper umbrella’s colour should not matter.
+If a paper umbrella appears at the bottom of a downtrend, it is called the ‘hammer.’
+If the paper umbrella appears at the top end of an uptrend, it is called the hanging man.
+The hammer is a bullish pattern, and one should look at buying opportunities when it appears.
+The low of the hammer acts as the stop-loss price trade.
+The hanging man is a bearish pattern which appears at the top end of the trend, and one should look at selling opportunities when it appears.
+The high of the hanging man acts as the stop loss price for the trade.
+The shooting star is a bearish pattern which appears at the top end of the trend. One should look at shorting opportunities when a shooting star appears.
+The high of the shooting star will be the stop loss price for the trade.
+
+https://zerodha.com/varsity/chapter/multiple-candlestick-patterns-part-1/
+Multiple candlestick patterns evolve over two or more trading days.
+The bullish engulfing pattern evolves over two trading days. It appears at the bottom end of a downtrend. Day one is called P1, and day 2 is called P2.
+In a bullish engulfing pattern, P1 is a red candle, and P2 is a blue candle. P2’s blue candle completely engulfs P1’s red candle.
+A risk-taker initiates a long trade at the close of P2 after ensuring P1 and P2 together form a bullish engulfing pattern. A risk-averse trader will initiate the trade the day after P2, near the close of the day.
+The stoploss for the bullish engulfing pattern is the lowest low between P1 and P2.
+The bearish engulfing pattern appears at the top end of an uptrend. P2’s red candle completely engulfs P1’s blue candle.
+A risk-taker initiates a short trade at the close of P2 after ensuring P1 and P2 together form a bearish engulfing pattern. The risk-averse trader will initiate the trade the day after P2, after confirming the day forms a red candle.
+The highest high of P1 and P2 forms the stoploss for a bearish engulfing pattern
+The presence of a doji after an engulfing pattern tends to catalyze the pattern’s evolution.
+The piercing pattern works very similarly to the bullish engulfing pattern, except that P2’s blue candle engulfs at least 50% and below 100% of P1’s red candle.
+The dark cloud cover works similar to the bearish engulfing pattern, except that P2’s red candle engulfs at least 50% and below 100% of P1’s blue candle.
+
+https://zerodha.com/varsity/chapter/multiple-candlestick-patterns-part-2/
+The harami pattern evolves over 2 trading sessions – P1 and P2.
+Day 1 (P1) of the pattern forms a long candle and day 2(P2) of the pattern forms a small candle which appears as if it has been tucked inside the P1’s long candle.
+A bullish harami candle pattern is formed at the lower end of a downtrend. P1 is a long red candle, and P2 is a small blue candle. The idea is to initiate a long trade near the close of P2 (risk taker). A risk-averse trader will initiate the long trade near the close of the day after P2 only after ensuring it forms a blue candle day.
+The stop loss on a bullish harami pattern is the lowest low price between P1 and P2.
+The bearish harami pattern is formed at the top end of an uptrend. P1 is a long blue candle, and P2 is a small red candle. The idea is to initiate a short trade near the close of P2 (risk taker). The risk-averse will initiate the short near the day’s close only after ensuring it is a red candle day.
+The stop loss on a bearish harami pattern is the highest high price between P1 and P2.
+
+https://zerodha.com/varsity/chapter/multiple-candlestick-patterns-part-3/
+Star formation occurs over three trading sessions. The candle of P2 is usually a doji or a spinning top.
+If there is a doji on P2 in a star pattern, it is called a doji star (morning doji star, evening doji star) else it is just called the star pattern (morning star, evening star)
+Morning star is a bullish pattern which occurs at the bottom end of the trend. The idea is to go long on P3 with the lowest low pattern being the stop loss for the trade.
+The evening star is a bearish pattern, which occurs at the top end of an uptrend. The idea is to go short on P3, with the highest pattern acting as a stop loss.
+The star formation evolves over a 3 days period. Hence both the risk-averse and risk taker are advised to initiate the trade on P3.
+Candlesticks portray the traders thought process. One should nurture this thought process as he dwells deeper into the candlestick study
+
+https://zerodha.com/varsity/chapter/support-resistance/
+S&R are price points on the chart
+Support is a price point below the current market price that indicate buying interest.
+Resistance is a price point above the current market price that indicate selling interest.
+To identify S&R, place a horizontal line in such a way that it connects at least 3 price action zones, well-spaced in time. The more number of price action zones (well spaced in time) the horizontal line connects, the stronger is S&R
+S&R can be used to identify targets for the trade. For a long trade, look for the immediate resistance level as the target. For a short trade, look for the immediate support level as the target.
+Lastly, comply with the checklist for optimal trading results
+
+https://zerodha.com/varsity/chapter/volumes/
+Volumes are used to confirm a trend
+100 share buy and 100 shares sell the total volume 100, not 200
+The end of day volumes indicates the cumulative volume across trades executed throughout the day
+High volumes indicate the presence of smart money
+Low volumes indicate retail participation
+When you initiate a trade to either go long or short always make sure if volumes confirm
+Avoid trading on low volume days
+
+https://zerodha.com/varsity/chapter/moving-averages/
+A standard average calculation is a quick approximation of a series of numbers
+In an average calculation where the latest data is included, and the oldest is excluded called a Moving Average
+The simple moving average (SMA) gives equal weightage to all data points in the series
+An exponential moving average (EMA) scales the data according to its newness. Recent data gets the maximum weightage, and the oldest gets the least weightage
+For all practical purposes, use an EMA as opposed to SMA. This is because the EMA gives more weightage to the most recent data points
+The outlook is bullish when the current market price is greater than the EMA. The outlook turns bearish when the current market price turns lesser than the EMA
+In a non-trending market, moving averages may result in whipsaws, thereby causing frequent losses. To overcome this, an EMA crossover system is adopted
+In a typical crossover system, the price chart is overlaid with two EMAs. The shorter EMA is faster to react, while the longer EMA is slower to react
+The outlook turns bullish when the faster EMA crosses and is above the slower EMA. Hence one should look at buying the stock. The trade lasts upto a point where the faster EMA starts going below, the slower EMA
+The longer the time frame one chooses for a crossover system, the lesser the trading signals.
+
+https://zerodha.com/varsity/chapter/indicators-part-1/
+Indicators are independent trading systems developed and introduced by successful traders.
+Indicators are leading or lagging. Leading indicators signal the possible occurrence of an event. Lagging indicators, on the other hand, confirms an ongoing trend.
+RSI is a momentum oscillator which oscillates between 0 and 100 level
+A value between 0 and 30 is considered oversold. Hence the trader should look at buying opportunities.
+A value between 70 and 100 is considered overbought. Hence the trader should look at selling opportunities.
+If the RSI value is fixed in a region for a prolonged period, it indicates excess momentum. Hence, instead of taking a reversed position, the trader can consider initiating a trade in the same direction.
+
+https://zerodha.com/varsity/chapter/indicators-part-2/
+A MACD is a trend following system
+MACD consists of a 12 Day, 26 day EMA
+MACD line is 12d EMA – 26d EMA
+The signal line is the 9 day SMA of the MACD line
+A crossover strategy can be applied between the MACD Line and the signal line
+The Bollinger band captures the volatility. It has a 20-day average, a +2 SD, and a -2 SD
+One can short when the current price is at +2SD with an expectation that the price reverts to the average
+One can go long when the current price is at -2SD with an expectation that the price reverts to the average
+BB works well in a sideways market. In a trending market, the BB’s envelope expands and generates many false signals
+Indicators are good to know, but it should not be treated as a single source for decision making.
+
+https://zerodha.com/varsity/chapter/fibonacci-retracements/
+The Fibonacci series forms the basis for Fibonacci retracement
+A Fibonacci series has many mathematical properties. These mathematical properties are prevalent in many aspects of nature.
+Traders believe the Fibonacci series has its application in stock charts as it identified potential retracement levels.
+Fibonacci retracements are levels (61.8%, 38.2%, and 23.6% ) upto which a stock can retrace before it resumes the original directional move.
+At the Fibonacci retracement level, the trader can look at initiating a new trade. However, before initiating the trade, other points in the checklist should also confirm.
+
+https://zerodha.com/varsity/chapter/dow-theory-part-1/
+Dow Theory was used in the western world even before candlesticks were formally introduced.
+Dow Theory works on 9 basic tenets.
+The market can be viewed in 3 basic phases – accumulation, mark up, and distribution phase.
+The accumulation phase is when the institutional investor (smart money) enters the market, mark up phase is when traders make an entry. The final distribution phase is when the larger public enter the market.
+What follows the distribution phase is the markdown phase, following which the accumulation phase will complete the circle.
+The Dow theory has a few basic patterns, which are best used in conjunction with candlesticks.
+The double and triple formations are reversal patterns, which are quite effective.
+The interpretation of double and triple formations are the same
+
+https://zerodha.com/varsity/chapter/dow-theory-part-2/
+A range is formed when the stock oscillates between the two price points.
+A trader can buy at the lower price point, and sell at a higher price point.
+The stock gets into a range for a specific reason such as the lack of fundamental triggers, or event expectation.
+The stock can break out of the range. A good breakout is characterized by above-average volumes and a sharp surge in prices.
+If the trader has missed an opportunity to buy a stock, the flag formation offers another window to buy
+RRR is a critical parameter for trade evaluation. Develop a minimum RRR threshold based on your risk appetite
+Before initiating a trade, the trader should look at the opportunity from the Dow Theory perspective.
+
+https://zerodha.com/varsity/chapter/finale-helping-get-started/
+If you aspire to become a technical trader, ensure you equip yourself with good charting software. Zerodha’s Pi is my preference.
+Choose EOD chart for both day trading and swing trading.
+Look at intraday charts if you like scalping the markets.
+The lookback period should be at least 6 months to 1 year for swing trading.
+Nifty 50 is a great opportunity universe, to begin with
+The opportunity scanning can be done in 2 parts.
+Part 1 involves skimming through the charts of all the stocks in opportunity universe and shortlisting those charts that display a recognizable candlestick pattern.
+Part 2 involves investigating the shortlisted charts to figure out if they comply with the checklist.
+Scalping is advisable for seasoned swing traders
+
+https://zerodha.com/varsity/chapter/supplementary-notes-1/
+
+https://zerodha.com/varsity/chapter/the-central-pivot-range/
+You can trade from the chart by selecting the trade button.
+The trade button is a floating window which you can place anywhere on the chart.
+The candle pattern helps identify the candlestick patterns, use this to reconfirm the pattern.
+CPR helps you identify the S&R pattern
+It is considered bullish if the current market price is higher than the TC line.
+It is considered bearish if the current market price below the BC line.
+
+https://zerodha.com/varsity/chapter/introduction-fundamental-analysis/
+Fundamental Analysis is used to make long term investments.
+Investment in a company with good fundamentals creates wealth.
+Using Fundamental Analysis, one can separate an investment-grade company from a junk company.
+All investment-grade companies exhibit a few common traits. Likewise, all junk companies exhibit common traits.
+Fundamental analysis helps the analysts identify these traits.
+Both Technical analysis and fundamental analysis should coexist as a part of your market strategy.
+To become a fundamental analyst, one does not require any special skill. Common sense, basic mathematics, and a bit of business sense are all that is required.
+A core-satellite approach to capital allocation is a prudent market strategy.
+The tools required for FA are generally fundamental; most of these tools are available for free.
+
+https://zerodha.com/varsity/chapter/mindset-investor/
+The mindset of a trader and an investor is different.
+The investor has to develop an investment mindset if he is serious about investing.
+The investor should stay invested for a long period of time for the returns to compound.
+The speed at which the money doubles increases drastically the more time you stay invested. This is one of the properties of compounding.
+Every investment has to be evaluated on two aspects – qualitative & quantitative.
+Qualitative aspects revolve around the non-numeric information related to the company.
+The quantitative aspects involve analyzing numeric data. The financial statements are an important source of finding quantitative data.
+
+https://zerodha.com/varsity/chapter/read-annual-report-company/
+The Annual Report (AR) of a company is an official communication from the company to its investors and other stakeholders.
+The AR is the best source to get information about the company; hence AR should be the default choice for the investor to source company-related information.
+The AR contains many sections, with each section highlighting a certain aspect of the business.
+The AR is also the best source to get information related to the qualitative aspects of the company.
+The management discussion and analysis is one of the most important sections in the AR. It has the management’s perspective on the country’s overall economy, their outlook on the industry they operate in for the year gone by (what went right and what went wrong), and what they foresee for the year ahead.
+The AR contains three financial statements – Profit & Loss Statement, Balance Sheet, and Cash Flow statement.
+The standalone statement contains the financial numbers of only the company into consideration. However, the consolidated numbers contain the company and its subsidiaries financial numbers.
+
+https://zerodha.com/varsity/chapter/understanding-pl-statement-part1/
+The financial statement provides information and conveys the financial position of the company.
+A complete set of financial statements include the Profit & Loss Account, Balance Sheet and Cash Flow Statement.
+A fundamental Analyst is a financial statement user, and he needs to know what the maker of the financial statements states.
+The profit and loss statement gives the profitability of the company for the year under consideration.
+The P&L statement is an estimate, as the company can revise the numbers at a later point. Also, by default, companies publish data for the current year and the previous year, side by side.
+The revenue side of the P&L is also called the top line of the company.
+Revenue from operations is the main source of revenue for the company.
+Other operating income includes revenue incidental to the business.
+The other income includes revenue from non-operating sources.
+The sum of revenue from operations (net of duty), other operating income, and other incomes gives the ‘Net Revenue from Operations’
+
+https://zerodha.com/varsity/chapter/understanding-pl-statement-part2/
+The P&L statement’s expense statement contains information on all the expenses incurred by the company during the financial year.
+Each expense can be studied concerning a note which you can explore for further information.
+Depreciation and amortization is a way of spreading the cost of an asset over its useful life.
+The cost of interest and other charges paid when the company borrows money for its capital expenditure.
+PBT = Total Revenue – Total Expense – Exceptional items (if any)
+Net PAT = PBT – applicable taxes
+EPS reflects the earning capacity of a company on a per-share basis. Earnings are profit after tax and preferred dividends.
+EPS = PAT / Total number of outstanding ordinary shares
+
+https://zerodha.com/varsity/chapter/understanding-balance-sheet-statement-part-1/
+A Balance sheet also called the Statement of Financial Position is prepared on a flow basis that depicts the company’s financial position at any given point in time. It is a statement which shows what the company owns ( assets) and what the company owes (liabilities)
+A business will generally need a balance sheet when it seeks investors, applies for loans, submits taxes etc.
+Balance sheet equation is Assets = Liabilities + Shareholders’ Equity.
+Liabilities are obligations or debts of a business from past transactions, and Share capital is the number of shares * face value.
+Reserves are the funds earmarked for a specific purpose, which the company intends to use in future.
+The surplus is where the profits of the company reside. This is one of the points where the balance sheet and the P&L interact. Dividends are paid out of the surplus.
+Shareholders’ equity = Share capital + Reserves + Surplus. Equity is the claim of the owners on the assets of the company. It represents the assets that remain after deducting the liabilities if you rearrange the Balance Sheet equation, Equity = Assets – Liabilities.
+Non-current liabilities or the long-term liabilities are expected to be settled in not less than 365 days or 12 months of the balance sheet date.
+Deferred tax liabilities arise due to the discrepancy in the way the depreciation is treated. Deferred tax liabilities are amounts of income taxes payable in the future concerning taxable differences as per accounting books and tax books.
+Current liabilities are the company’s obligations to settle within 365 days /12 months of the balance sheet date.
+In most cases, both long and short term provisions are liabilities dealing with employee-related matters
+Total Liability = Shareholders’ Funds + Non-Current Liabilities + Current Liabilities. . Thus, total liabilities represent the total amount of money the company owes to others
+
+https://zerodha.com/varsity/chapter/understanding-balance-sheet-statement-part-2/
+The Assets side of the Balance sheet displays all the assets the company owns
+Assets are expected to give an economic benefit during its useful life.
+Assets are classified as Non-current and Current asset.
+The useful life of Non-current assets is expected to last beyond 365 days or 12 months.
+Current assets are expected to pay off within 365 days or 12 months.
+Assets inclusive of depreciation are called the ‘Gross Block.’
+Net Block = Gross Block – Accumulated Depreciation
+The sum of all assets should equal the sum of all liabilities. Only then the Balance sheet is said to have balanced.
+The Balance sheet and P&L statement are inseparable. They are connected in many ways.
+
+https://zerodha.com/varsity/chapter/cash-flow-statement/
+The Cash flow statement gives us a picture of the true cash position of the company.
+A legitimate company has three main activities – operating activities, investing activities and the financing activities.
+Each activity either generates or drains money for the company.
+The company’s net cash flow is the sum of operating activities, investing activities, and financing activities.
+Investors should specifically look at the cash flow from operating activities of the company.
+When the liabilities increase, cash level increases and vice versa
+When the assets increase, cash level decreases and vice versa.
+The net cash flow number for the year is also reflected in the balance sheet.
+The Statement of Cash flow is a useful addition to a company’s financial statements because it indicates the company’s performance.
+
+https://zerodha.com/varsity/chapter/financial-ratio-analysis/
+A Financial ratio is a useful financial metric of a company. On its own merit, the ratio conveys very little information
+It is best to study the ratio’s recent trend or compare it with the company’s peers to develop an opinion
+Financial ratios can be categorized into ‘Profitability’, ‘Leverage’, ‘Valuation’, and ‘Operating’ ratios. Each of these categories gives the analyst a certain view on the company’s business
+EBITDA is the amount of money the company makes after subtracting the operational expenses of the company from its operating revenue
+EBITDA margin indicates the percentage profitability of the company at the operating level
+PAT margin gives the overall profitability of the firm
+Return on Equity (ROE) is a precious ratio. It indicates how much return the shareholders are making over their initial investment in the company
+A high ROE and high debt is not a great sign
+DuPont Model helps in decomposing the ROE into different parts, with each part throwing light on different aspects of the business
+DuPont method is probably the best way to calculate the ROE of a firm
+Return on Assets is an indicator of how efficiently the company is utilizing its assets
+Return on Capital employed indicates the overall return the company generates considering both the equity and debt.
+For the ratios to be useful, it should be analyzed compared to other companies in the same industry.
+Also, ratios should be analyzed both at a single point in time and as an indicator of broader trends over time
+
+https://zerodha.com/varsity/chapter/financial-ratios-part-2/
+Leverage ratios include Interest Coverage, Debt to Equity, Debt to Assets and the Financial Leverage ratios
+The Leverage ratios mainly study the company’s debt with respect to the company’s ability to service the long term debt
+Interest coverage ratio inspects the company’s earnings ability (at the EBIT level) as a multiple of its finance costs
+Debt to equity ratio measures the amount of equity capital with respect to the debt capital. Debt to equity of 1 implies equal amount of debt and equity
+Debt to Asset ratio helps us understand the asset financing structure of the company (especially with respect to the debt)
+The Financial Leverage ratio helps us understand the extent to which the assets are financed by the owner’s equity
+The Operating Ratios also referred to as the Activity ratios include – Fixed Assets Turnover, Working Capital turnover, Total Assets turnover, Inventory turnover, Inventory number of days, Receivable turnover and Day Sales Outstanding ratios
+The Fixed asset turnover ratio measures the extent of the revenue generated in comparison to its investment in fixed assets
+Working capital turnover ratio indicates how much revenue the company generates for every unit of working capital
+Total assets turnover indicates the company’s ability to generate revenues with the given amount of assets
+Inventory turnover ratio indicates how many times the company replenishes its inventory during the year
+Inventory number of days represents the number of days the company takes to convert its inventory to cash
+A high inventory turnover and therefore a low inventory number of days is a great combination
+However make sure this does not come at the cost of low production capacity
+The Receivable turnover ratio indicates how many times in a given period the company receives money from its debtors and customers
+The Days sales outstanding (DSO) ratio indicates the Average cash collection period i.e the time lag between the Billing and Collection
+
+https://zerodha.com/varsity/chapter/financial-ratios-part-3/
+Valuation, in general, is the estimate of the ‘worth’ of something.
+Valuation ratios involve inputs from both the P&L statement and the Balance Sheet.
+The Price to Sales ratio compares the company’s stock price with the company’s sales per share.
+Sales per share is simply the Sales divided by the Number of shares.
+Sales of a company with a higher profit margin are more valuable than the sales of a company with lower profit margins.
+If a company is going bankrupt, the ‘Book Value’ of a firm is simply the amount of money left on the table after the company pays off its obligations.
+Book value is usually expressed on a per-share basis.
+The Price/BV indicates how many times the stock price is trading over and above the firm’s book value.
+EPS measures the profitability of a company on a per-share basis
+The P/E ratio indicates market participants’ willingness to pay for a stock, keeping the company’s earnings in perspective.
+One has to be cautious about earning manipulation while evaluating the P/E ratio.
+The Indices have a valuation which can be measured by the P/E, P/B or Dividend Yield ratio.
+It is advisable to exercise caution when the Index is trading at a valuation of 22x or above.
+A valuation gets attractive when the index is trading at 16x or below.
+NSE publishes the index valuations on their website daily
+
+https://zerodha.com/varsity/chapter/investment-due-diligence/
+A stock idea can come from any source.
+Circle of competence and General observation is a great way to start.
+It is advisable to have a watch list which includes stocks that look interesting.
+Once a stock is identified, we should look for sustainable moats.
+The due diligence process involves understanding the business, running the checklist to understand its financial performance, and the valuation exercise.
+When it comes to an understanding the business, one should be completely thorough with the company’s business operation.
+The checklist should be improvised as and when the investor gains investment experience.
+The DCF method is one of the best techniques to identify the intrinsic value of the business
+
+‘Limited Resource’ Equity Research can be performed in 3 stages: Understanding the Business, Application of the checklist, Valuations
+The objective of stage 1, i.e. understanding the business requires us to gather all business information. The best way to go about this is the Q&A way
+In the Q&A way, we begin with posting some simple and straightforward questions for which we find answers
+By the time we finish stage 1, we should be through with all the information related to the business
+Most of the answers required in stage 1 are present in the company’s annual report and website
+Do you remember while researching the company in stage 1, if there is something not very convincing about the company, it is often a good idea to stop researching further
+You need to get convinced (based on facts) about the company in stage 1. This is how you will develop a strong conviction to stay put during bear markets
+Stage 2 of Equity Research requires you to evaluate the performance of the company on various counts.
+You will proceed to stage 3 only after the company clears in stage 1 & 2.
+
+https://zerodha.com/varsity/chapter/dcf-primer/
+A valuation model, such as the DCF model helps us estimate the price of a stock.
+The DCF model is made up of several interwoven financial concepts.
+The ‘Time Value of Money’ is one of the most crucial concepts in finance, as it finds its application in several financial concepts, including the DCF method.
+The value of money cannot be treated the same across the time scale – which means the value of money in today’s terms is not really the same at some point in the future.
+To compare money across time, we have to ‘time travel the money’ after accounting for the opportunity cost.
+Future Value of money is the estimation of the value of money we have today at some point in the future.
+The present value of money estimates the value of money receivable in the future in terms of today’s value.
+The Net Present Value (NPV) of money is the sum of all the present values of the future cash flows.
+
+https://zerodha.com/varsity/chapter/equity-research-part-2/
+The free cash flow (FCF) for the company is calculated by deducting the capital expenditures from the net cash from operating activates.
+The free cash flow tracks the money left over for the investors.
+The latest year FCF is used to forecast the future year’s cash flow.
+The growth rate at which the FCF is grown has to be conservative.
+The terminal growth rate is when the company’s cash flow is supposed to grow beyond the terminal year.
+The terminal value is the value of the company’s cash flow from the terminal year upto infinity.
+The future cash flow, including the terminal value, has to be discounted back to today’s value.
+The sum of all the discounted cash flows (including the terminal value) is the total net present value of cash flows.
+From the total net present value of cash flows, the net debt has to be adjusted. Dividing this by the total number of shares gives us the per-share value of the company.
+One needs to accommodate for modelling errors by including a 10% band around the share price.
+By including a 10% leeway, we create an intrinsic value band.
+Stock trading below the range is considered a good buy, while the stock price above the intrinsic value band is considered expensive.
+Wealth is created by long term ownership of undervalued stocks.
+Thus, the DCF analysis helps the investors identify whether the company’s current share price is justified.
